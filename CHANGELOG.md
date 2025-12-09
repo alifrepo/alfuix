@@ -73,7 +73,7 @@ This project follows [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PAT
 |------|--------------|----------|
 | **MAJOR** | Breaking changes (structure, architecture, or imports) | 1.x.x → 2.0.0 |
 | **MINOR** | Backward-compatible features or modules | 1.0.2 → 1.1.0 |
-| **PATCH** | Fixes, cleanup, or minor improvements | 1.0.2 → 1.0.3 |
+| **PATCH** | Fixes, cleanup, or minor improvements | 1.0.6 → 1.0.7 |
 
 ---
 
