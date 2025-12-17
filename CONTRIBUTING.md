@@ -22,6 +22,6 @@ The framework follows:
 
 ### 1️⃣ Fork & Clone
 ```bash
-git clone https://github.com/alifislamidawah/alfuix.git
+git clone https://github.com/alifrepo/alfuix.git
 cd alfuix
 npm install
