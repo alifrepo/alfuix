@@ -1,5 +1,5 @@
 /*!
- * alfuix v1.0.8 (https://alfuix.com/)
+ * alfuix v1.0.9 (https://alfuix.com/)
  * Copyright 2025 - The The Alif Lab & alfuix (https://github.com/alifislamidawah/alfuix/graphs/contributors) Authors
  * Licensed under MIT https://alfuix.com/blob/main/LICENSE
  */
@@ -7,7 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 /*=== Import arabic fonts (Reem Kufi Fun & Cairo) from google ===*/
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Reem+Kufi+Fun:wght@400..700&display=swap");
-[data-bs-theme=alif-dark-blue] {
+[data-bs-theme=al-dark-blue] {
   --bs-body-color: #fff;
   --bs-primary: #109DF4;
   --bs-secondary:#081333;
@@ -26,21 +26,21 @@
   --bs-link-hover-color-rgb: 255, 247, 7;
   --bs-body-bg: #070D27;
 }
-[data-bs-theme=alif-dark-blue] .nav-pills {
+[data-bs-theme=al-dark-blue] .nav-pills {
   --bs-nav-link-color: #fff;
   --bs-nav-pills-link-active-bg: #109DF4;
   --bs-nav-link-hover-color: #109DF4;
 }
-[data-bs-theme=alif-dark-blue] .btn {
+[data-bs-theme=al-dark-blue] .btn {
   --bs-btn-font-family: "Jura", serif;
 }
-[data-bs-theme=alif-dark-blue] .btn:lang(ar) {
+[data-bs-theme=al-dark-blue] .btn:lang(ar) {
   --bs-btn-font-family: "Cairo", sans-serif;
 }
-[data-bs-theme=alif-dark-blue] body {
+[data-bs-theme=al-dark-blue] body {
   background-image: linear-gradient(180deg, #081333 0%, #070D27 100%) !important;
 }
-[data-bs-theme=alif-dark-blue] body:before {
+[data-bs-theme=al-dark-blue] body:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -54,7 +54,7 @@
   filter: blur(150px);
   pointer-events: none;
 }
-[data-bs-theme=alif-dark-blue] body:after {
+[data-bs-theme=al-dark-blue] body:after {
   content: "";
   position: absolute;
   bottom: 10%;
@@ -67,11 +67,11 @@
   filter: blur(150px);
   pointer-events: none;
 }
-[data-bs-theme=alif-dark-blue] .tooltip {
+[data-bs-theme=al-dark-blue] .tooltip {
   --bs-tooltip-color:#fff;
   --bs-tooltip-bg:#109DF4;
 }
-[data-bs-theme=alif-dark-blue] .accordion {
+[data-bs-theme=al-dark-blue] .accordion {
   --bs-accordion-color: #fff;
   --bs-accordion-bg: unset;
   --bs-accordion-border-color: unset;
@@ -85,19 +85,19 @@
   --bs-accordion-btn-padding-x: 0px;
   --bs-accordion-btn-padding-y: 0px;
 }
-[data-bs-theme=alif-dark-blue] h6, [data-bs-theme=alif-dark-blue] .h6, [data-bs-theme=alif-dark-blue] h5, [data-bs-theme=alif-dark-blue] .h5, [data-bs-theme=alif-dark-blue] h4, [data-bs-theme=alif-dark-blue] .h4, [data-bs-theme=alif-dark-blue] h3, [data-bs-theme=alif-dark-blue] .h3, [data-bs-theme=alif-dark-blue] h2, [data-bs-theme=alif-dark-blue] .h2, [data-bs-theme=alif-dark-blue] h1, [data-bs-theme=alif-dark-blue] .h1 {
+[data-bs-theme=al-dark-blue] h6, [data-bs-theme=al-dark-blue] .h6, [data-bs-theme=al-dark-blue] h5, [data-bs-theme=al-dark-blue] .h5, [data-bs-theme=al-dark-blue] h4, [data-bs-theme=al-dark-blue] .h4, [data-bs-theme=al-dark-blue] h3, [data-bs-theme=al-dark-blue] .h3, [data-bs-theme=al-dark-blue] h2, [data-bs-theme=al-dark-blue] .h2, [data-bs-theme=al-dark-blue] h1, [data-bs-theme=al-dark-blue] .h1 {
   font-family: "Jura", serif;
 }
-[data-bs-theme=alif-dark-blue] h6:lang(ar), [data-bs-theme=alif-dark-blue] .h6:lang(ar), [data-bs-theme=alif-dark-blue] h5:lang(ar), [data-bs-theme=alif-dark-blue] .h5:lang(ar), [data-bs-theme=alif-dark-blue] h4:lang(ar), [data-bs-theme=alif-dark-blue] .h4:lang(ar), [data-bs-theme=alif-dark-blue] h3:lang(ar), [data-bs-theme=alif-dark-blue] .h3:lang(ar), [data-bs-theme=alif-dark-blue] h2:lang(ar), [data-bs-theme=alif-dark-blue] .h2:lang(ar), [data-bs-theme=alif-dark-blue] h1:lang(ar), [data-bs-theme=alif-dark-blue] .h1:lang(ar) {
+[data-bs-theme=al-dark-blue] h6:lang(ar), [data-bs-theme=al-dark-blue] .h6:lang(ar), [data-bs-theme=al-dark-blue] h5:lang(ar), [data-bs-theme=al-dark-blue] .h5:lang(ar), [data-bs-theme=al-dark-blue] h4:lang(ar), [data-bs-theme=al-dark-blue] .h4:lang(ar), [data-bs-theme=al-dark-blue] h3:lang(ar), [data-bs-theme=al-dark-blue] .h3:lang(ar), [data-bs-theme=al-dark-blue] h2:lang(ar), [data-bs-theme=al-dark-blue] .h2:lang(ar), [data-bs-theme=al-dark-blue] h1:lang(ar), [data-bs-theme=al-dark-blue] .h1:lang(ar) {
   font-family: "Cairo", sans-serif;
 }
-[data-bs-theme=alif-dark-blue] .form-control, [data-bs-theme=alif-dark-blue] .form-select {
+[data-bs-theme=al-dark-blue] .form-control, [data-bs-theme=al-dark-blue] .form-select {
   --bs-body-bg: rgba(255, 255, 255, .01);
   --bs-body-color:#fff;
   border-color: rgba(16, 157, 244, 0.35);
   backdrop-filter: blur(4px);
 }
-[data-bs-theme=alif-dark-blue] .table {
+[data-bs-theme=al-dark-blue] .table {
   --bs-table-border-color:rgba(16, 157, 244, 0.25);
   --bs-table-color: #fff;
 }
@@ -9212,9 +9212,6 @@ html[dir=rtl] .al-center-e-100 {
 /*====== Varibles start =====*/
 .al {
   /*=== position top +ve utilities ===*/
-  /*=== position bottom +ve utilities ===*/
-  /*=== position top -ve utilities ===*/
-  /*=== position bottom -ve utilities ===*/
 }
 .al-top-0 {
   top: 0px !important;
@@ -9276,6 +9273,9 @@ html[dir=rtl] .al-center-e-100 {
 .al-top-64 {
   top: 64px !important;
 }
+.al {
+  /*=== position bottom +ve utilities ===*/
+}
 .al-bottom-0 {
   bottom: 0px !important;
 }
@@ -9336,6 +9336,9 @@ html[dir=rtl] .al-center-e-100 {
 .al-bottom-64 {
   bottom: 64px !important;
 }
+.al {
+  /*=== position top -ve utilities ===*/
+}
 .al-top-n-0 {
   top: 0px !important;
 }
@@ -9395,6 +9398,9 @@ html[dir=rtl] .al-center-e-100 {
 }
 .al-top-n-64 {
   top: -64px !important;
+}
+.al {
+  /*=== position bottom -ve utilities ===*/
 }
 .al-bottom-n-0 {
   bottom: 0px !important;
@@ -9473,9 +9479,6 @@ html[dir=rtl] .al-center-e-100 {
 /* ===== position (left & right) RTL & LTR ===== */
 html[dir=ltr] .al {
   /*=== position start +ve utilities ===*/
-  /*=== position end +ve utilities ===*/
-  /*=== position start -ve utilities ===*/
-  /*=== position end -ve utilities ===*/
 }
 html[dir=ltr] .al-start-0 {
   left: 0px !important;
@@ -9537,6 +9540,9 @@ html[dir=ltr] .al-start-48 {
 html[dir=ltr] .al-start-64 {
   left: 64px !important;
 }
+html[dir=ltr] .al {
+  /*=== position end +ve utilities ===*/
+}
 html[dir=ltr] .al-end-0 {
   right: 0px !important;
 }
@@ -9597,6 +9603,9 @@ html[dir=ltr] .al-end-48 {
 html[dir=ltr] .al-end-64 {
   right: 64px !important;
 }
+html[dir=ltr] .al {
+  /*=== position start -ve utilities ===*/
+}
 html[dir=ltr] .al-start-n-0 {
   left: 0px !important;
 }
@@ -9656,6 +9665,9 @@ html[dir=ltr] .al-start-n-48 {
 }
 html[dir=ltr] .al-start-n-64 {
   left: -64px !important;
+}
+html[dir=ltr] .al {
+  /*=== position end -ve utilities ===*/
 }
 html[dir=ltr] .al-end-n-0 {
   right: 0px !important;
@@ -9719,9 +9731,6 @@ html[dir=ltr] .al-end-n-64 {
 }
 html[dir=rtl] .al {
   /*=== position start +ve utilities ===*/
-  /*=== position end +ve utilities ===*/
-  /*=== position start -ve utilities ===*/
-  /*=== position end -ve utilities ===*/
 }
 html[dir=rtl] .al-start-0 {
   right: 0px !important;
@@ -9783,6 +9792,9 @@ html[dir=rtl] .al-start-48 {
 html[dir=rtl] .al-start-64 {
   right: 64px !important;
 }
+html[dir=rtl] .al {
+  /*=== position end +ve utilities ===*/
+}
 html[dir=rtl] .al-end-0 {
   left: 0px !important;
 }
@@ -9842,6 +9854,9 @@ html[dir=rtl] .al-end-48 {
 }
 html[dir=rtl] .al-end-64 {
   left: 64px !important;
+}
+html[dir=rtl] .al {
+  /*=== position start -ve utilities ===*/
 }
 html[dir=rtl] .al-start-n-0 {
   right: 0px !important;
@@ -9922,6 +9937,9 @@ html[dir=rtl] .al-start-n-48 {
 html[dir=rtl] .al-start-n-64 {
   right: -64px !important;
   left: inherit !important;
+}
+html[dir=rtl] .al {
+  /*=== position end -ve utilities ===*/
 }
 html[dir=rtl] .al-end-n-0 {
   left: 0px !important;
