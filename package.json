@@ -1,6 +1,6 @@
 {
   "name": "alfuix",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Alfuix — A futuristic SCSS + CSS UI toolkits that extends frameworks like Bootstrap and Tailwind by enhancing their utilities and components with advanced clipping, shapes, borders, filters, and motion effects for next-generation design.",
   "keywords": [
     "alfuix",
@@ -29,14 +29,14 @@
     "borders"
   ],
   "homepage": "https://alfuix.com/",
-  "author": "The Alif Lab & alfuix (https://github.com/alifislamidawah/alfuix/graphs/contributors)",
+  "author": "Alfuix",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alifislamidawah/alfuix/issues"
+    "url": "https://github.com/alifrepo/alfuix/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alifislamidawah/alfuix.git"
+    "url": "git+https://github.com/alifrepo/alfuix.git"
   },
 
   "style": "dist/css/alfuix.css",
@@ -75,11 +75,11 @@
     "css:normal": "npx sass scss/alfuix.scss dist/css/alfuix.css --style=expanded && npx sass scss/alfuix-clip.scss dist/css/alfuix-clip.css --style=expanded && npx sass scss/alfuix-animation.scss dist/css/alfuix-animation.css --style=expanded && npx sass scss/alfuix-utilities.scss dist/css/alfuix-utilities.css --style=expanded",
     "css:minify": "npx sass scss/alfuix.scss dist/css/alfuix.min.css --style=compressed && npx sass scss/alfuix-clip.scss dist/css/alfuix-clip.min.css --style=compressed && npx sass scss/alfuix-animation.scss dist/css/alfuix-animation.min.css --style=compressed && npx sass scss/alfuix-utilities.scss dist/css/alfuix-utilities.min.css --style=compressed",
 
-    "add:banners": "node build-banner.js",
+    "add:banners": "node buildScripts/build-banner.js",
     "clean": "npx rimraf dist",
     "test": "echo \"No tests specified\" && exit 0",
 
-    "postinstall": "node -e \"console.log('\\n✅ Alfuix installed successfully!\\n✨ You can use it with Bootstrap, Tailwind, or any CSS framework.\\n💡 Tip: Install at least one base framework, e.g. `npm install bootstrap` or `npm install tailwindcss`.\\n')\""
+    "postinstall": "node -e \"console.log('\\n✅ alfuix installed successfully!\\n✨ You can use it with Bootstrap, Tailwind, or any CSS framework.\\n💡 Tip: Install at least one base framework, e.g. `npm install bootstrap` or `npm install tailwindcss`.\\n')\""
   },
 
   "peerDependencies": {
