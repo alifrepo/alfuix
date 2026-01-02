@@ -1,11 +1,11 @@
-# 🌌 alfuix — Extending Bootstrap & Tailwind for the Future
+# 🌌 Alfuix — Futuristic CSS UI Toolkit with Advanced Clipping & Modern Utilities
 
 [![npm version](https://img.shields.io/npm/v/alfuix.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/alfuix)
 [![npm downloads](https://img.shields.io/npm/dm/alfuix.svg?style=flat-square&color=brightgreen)](https://www.npmjs.com/package/alfuix)
 [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/alfuix/badge?style=flat-square)](https://www.jsdelivr.com/package/npm/alfuix)
 [![bundle size](https://img.shields.io/bundlephobia/minzip/alfuix?style=flat-square&color=orange)](https://bundlephobia.com/package/alfuix)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
-[![Website](https://img.shields.io/badge/docs-alfuix.com-blueviolet?style=flat-square)](https://alfuix.com/doc/)
+[![Website](https://img.shields.io/badge/docs-alfuix.com-blueviolet?style=flat-square)](https://alfuix.com/docs/)
 
 > **Alfuix** is a futuristic, modular **SCSS + CSS enhancement framework** that extends **Bootstrap** and **TailwindCSS** by supercharging their **utilities** and **components**.  
 > It introduces **clipping effects**, **shape systems**, **filters**, and **motion-inspired styling** — built for designers who want the future of UI, today.
