@@ -1,14 +1,9 @@
 /*!
- * alfuix v1.0.10 (https://alfuix.com/)
- * Copyright 2025 - The Alfuix Authors
+ * alfuix v1.0.12 (https://alfuix.com/)
+ * Copyright 2026 - The Alfuix Authors
  * Licensed under MIT https://github.com/alifrepo/alfuix/blob/main/LICENSE
  */
 /*====== Varibles start =====*/
-.animate__animated {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
 .al-animate-cursor {
   background-color: var(--bs-gray-500);
   animation: blink 1s infinite;
