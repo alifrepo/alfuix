@@ -1,6 +1,6 @@
 {
   "name": "alfuix",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Alfuix — A futuristic SCSS + CSS UI toolkits that extends frameworks like Bootstrap and Tailwind by enhancing their utilities and components with advanced clipping, shapes, borders, filters, and motion effects for next-generation design.",
   "keywords": [
     "alfuix",

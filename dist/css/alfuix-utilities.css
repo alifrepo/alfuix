@@ -1,6 +1,6 @@
 /*!
- * alfuix v1.0.10 (https://alfuix.com/)
- * Copyright 2025 - The Alfuix Authors
+ * alfuix v1.0.12 (https://alfuix.com/)
+ * Copyright 2026 - The Alfuix Authors
  * Licensed under MIT https://github.com/alifrepo/alfuix/blob/main/LICENSE
  */
 /*=== Import english fonts (Jura & roboto) from google ===*/
@@ -9209,7 +9209,10 @@ html[dir=rtl] .al-center-e-100 {
   -webkit-text-fill-color: transparent;
 }
 
-/*====== Varibles start =====*/
+/* Sizes list */
+/*========================
+  Core .al utilities
+=========================*/
 .al {
   /*=== position top +ve utilities ===*/
 }
@@ -9340,7 +9343,7 @@ html[dir=rtl] .al-center-e-100 {
   /*=== position top -ve utilities ===*/
 }
 .al-top-n-0 {
-  top: 0px !important;
+  top: -0px !important;
 }
 .al-top-n-1 {
   top: -1px !important;
@@ -9403,7 +9406,7 @@ html[dir=rtl] .al-center-e-100 {
   /*=== position bottom -ve utilities ===*/
 }
 .al-bottom-n-0 {
-  bottom: 0px !important;
+  bottom: -0px !important;
 }
 .al-bottom-n-1 {
   bottom: -1px !important;
@@ -9462,6 +9465,9 @@ html[dir=rtl] .al-center-e-100 {
 .al-bottom-n-64 {
   bottom: -64px !important;
 }
+.al {
+  /*=== object center ===*/
+}
 .al-object-center {
   top: 50% !important;
   left: 50% !important;
@@ -9476,552 +9482,537 @@ html[dir=rtl] .al-center-e-100 {
   transform: translateX(-50%) !important;
 }
 
-/* ===== position (left & right) RTL & LTR ===== */
-html[dir=ltr] .al {
-  /*=== position start +ve utilities ===*/
-}
+/*========================
+  RTL / LTR directional utilities
+=========================*/
+/* LTR */
 html[dir=ltr] .al-start-0 {
   left: 0px !important;
 }
-html[dir=ltr] .al-start-1 {
-  left: 1px !important;
-}
-html[dir=ltr] .al-start-2 {
-  left: 2px !important;
-}
-html[dir=ltr] .al-start-3 {
-  left: 3px !important;
-}
-html[dir=ltr] .al-start-4 {
-  left: 4px !important;
-}
-html[dir=ltr] .al-start-5 {
-  left: 5px !important;
-}
-html[dir=ltr] .al-start-6 {
-  left: 6px !important;
-}
-html[dir=ltr] .al-start-7 {
-  left: 7px !important;
-}
-html[dir=ltr] .al-start-8 {
-  left: 8px !important;
-}
-html[dir=ltr] .al-start-9 {
-  left: 9px !important;
-}
-html[dir=ltr] .al-start-10 {
-  left: 10px !important;
-}
-html[dir=ltr] .al-start-12 {
-  left: 12px !important;
-}
-html[dir=ltr] .al-start-14 {
-  left: 14px !important;
-}
-html[dir=ltr] .al-start-15 {
-  left: 15px !important;
-}
-html[dir=ltr] .al-start-16 {
-  left: 16px !important;
-}
-html[dir=ltr] .al-start-20 {
-  left: 20px !important;
-}
-html[dir=ltr] .al-start-24 {
-  left: 24px !important;
-}
-html[dir=ltr] .al-start-32 {
-  left: 32px !important;
-}
-html[dir=ltr] .al-start-48 {
-  left: 48px !important;
-}
-html[dir=ltr] .al-start-64 {
-  left: 64px !important;
-}
-html[dir=ltr] .al {
-  /*=== position end +ve utilities ===*/
+html[dir=ltr] .al-start-n-0 {
+  left: -0px !important;
 }
 html[dir=ltr] .al-end-0 {
   right: 0px !important;
 }
-html[dir=ltr] .al-end-1 {
-  right: 1px !important;
+html[dir=ltr] .al-end-n-0 {
+  right: -0px !important;
 }
-html[dir=ltr] .al-end-2 {
-  right: 2px !important;
-}
-html[dir=ltr] .al-end-3 {
-  right: 3px !important;
-}
-html[dir=ltr] .al-end-4 {
-  right: 4px !important;
-}
-html[dir=ltr] .al-end-5 {
-  right: 5px !important;
-}
-html[dir=ltr] .al-end-6 {
-  right: 6px !important;
-}
-html[dir=ltr] .al-end-7 {
-  right: 7px !important;
-}
-html[dir=ltr] .al-end-8 {
-  right: 8px !important;
-}
-html[dir=ltr] .al-end-9 {
-  right: 9px !important;
-}
-html[dir=ltr] .al-end-10 {
-  right: 10px !important;
-}
-html[dir=ltr] .al-end-12 {
-  right: 12px !important;
-}
-html[dir=ltr] .al-end-14 {
-  right: 14px !important;
-}
-html[dir=ltr] .al-end-15 {
-  right: 15px !important;
-}
-html[dir=ltr] .al-end-16 {
-  right: 16px !important;
-}
-html[dir=ltr] .al-end-20 {
-  right: 20px !important;
-}
-html[dir=ltr] .al-end-24 {
-  right: 24px !important;
-}
-html[dir=ltr] .al-end-32 {
-  right: 32px !important;
-}
-html[dir=ltr] .al-end-48 {
-  right: 48px !important;
-}
-html[dir=ltr] .al-end-64 {
-  right: 64px !important;
-}
-html[dir=ltr] .al {
-  /*=== position start -ve utilities ===*/
-}
-html[dir=ltr] .al-start-n-0 {
-  left: 0px !important;
+html[dir=ltr] .al-start-1 {
+  left: 1px !important;
 }
 html[dir=ltr] .al-start-n-1 {
   left: -1px !important;
 }
-html[dir=ltr] .al-start-n-2 {
-  left: -2px !important;
-}
-html[dir=ltr] .al-start-n-3 {
-  left: -3px !important;
-}
-html[dir=ltr] .al-start-n-4 {
-  left: -4px !important;
-}
-html[dir=ltr] .al-start-n-5 {
-  left: -5px !important;
-}
-html[dir=ltr] .al-start-n-6 {
-  left: -6px !important;
-}
-html[dir=ltr] .al-start-n-7 {
-  left: -7px !important;
-}
-html[dir=ltr] .al-start-n-8 {
-  left: -8px !important;
-}
-html[dir=ltr] .al-start-n-9 {
-  left: -9px !important;
-}
-html[dir=ltr] .al-start-n-10 {
-  left: -10px !important;
-}
-html[dir=ltr] .al-start-n-12 {
-  left: -12px !important;
-}
-html[dir=ltr] .al-start-n-14 {
-  left: -14px !important;
-}
-html[dir=ltr] .al-start-n-15 {
-  left: -15px !important;
-}
-html[dir=ltr] .al-start-n-16 {
-  left: -16px !important;
-}
-html[dir=ltr] .al-start-n-20 {
-  left: -20px !important;
-}
-html[dir=ltr] .al-start-n-24 {
-  left: -24px !important;
-}
-html[dir=ltr] .al-start-n-32 {
-  left: -32px !important;
-}
-html[dir=ltr] .al-start-n-48 {
-  left: -48px !important;
-}
-html[dir=ltr] .al-start-n-64 {
-  left: -64px !important;
-}
-html[dir=ltr] .al {
-  /*=== position end -ve utilities ===*/
-}
-html[dir=ltr] .al-end-n-0 {
-  right: 0px !important;
+html[dir=ltr] .al-end-1 {
+  right: 1px !important;
 }
 html[dir=ltr] .al-end-n-1 {
   right: -1px !important;
 }
+html[dir=ltr] .al-start-2 {
+  left: 2px !important;
+}
+html[dir=ltr] .al-start-n-2 {
+  left: -2px !important;
+}
+html[dir=ltr] .al-end-2 {
+  right: 2px !important;
+}
 html[dir=ltr] .al-end-n-2 {
   right: -2px !important;
+}
+html[dir=ltr] .al-start-3 {
+  left: 3px !important;
+}
+html[dir=ltr] .al-start-n-3 {
+  left: -3px !important;
+}
+html[dir=ltr] .al-end-3 {
+  right: 3px !important;
 }
 html[dir=ltr] .al-end-n-3 {
   right: -3px !important;
 }
+html[dir=ltr] .al-start-4 {
+  left: 4px !important;
+}
+html[dir=ltr] .al-start-n-4 {
+  left: -4px !important;
+}
+html[dir=ltr] .al-end-4 {
+  right: 4px !important;
+}
 html[dir=ltr] .al-end-n-4 {
   right: -4px !important;
+}
+html[dir=ltr] .al-start-5 {
+  left: 5px !important;
+}
+html[dir=ltr] .al-start-n-5 {
+  left: -5px !important;
+}
+html[dir=ltr] .al-end-5 {
+  right: 5px !important;
 }
 html[dir=ltr] .al-end-n-5 {
   right: -5px !important;
 }
+html[dir=ltr] .al-start-6 {
+  left: 6px !important;
+}
+html[dir=ltr] .al-start-n-6 {
+  left: -6px !important;
+}
+html[dir=ltr] .al-end-6 {
+  right: 6px !important;
+}
 html[dir=ltr] .al-end-n-6 {
   right: -6px !important;
+}
+html[dir=ltr] .al-start-7 {
+  left: 7px !important;
+}
+html[dir=ltr] .al-start-n-7 {
+  left: -7px !important;
+}
+html[dir=ltr] .al-end-7 {
+  right: 7px !important;
 }
 html[dir=ltr] .al-end-n-7 {
   right: -7px !important;
 }
+html[dir=ltr] .al-start-8 {
+  left: 8px !important;
+}
+html[dir=ltr] .al-start-n-8 {
+  left: -8px !important;
+}
+html[dir=ltr] .al-end-8 {
+  right: 8px !important;
+}
 html[dir=ltr] .al-end-n-8 {
   right: -8px !important;
+}
+html[dir=ltr] .al-start-9 {
+  left: 9px !important;
+}
+html[dir=ltr] .al-start-n-9 {
+  left: -9px !important;
+}
+html[dir=ltr] .al-end-9 {
+  right: 9px !important;
 }
 html[dir=ltr] .al-end-n-9 {
   right: -9px !important;
 }
+html[dir=ltr] .al-start-10 {
+  left: 10px !important;
+}
+html[dir=ltr] .al-start-n-10 {
+  left: -10px !important;
+}
+html[dir=ltr] .al-end-10 {
+  right: 10px !important;
+}
 html[dir=ltr] .al-end-n-10 {
   right: -10px !important;
+}
+html[dir=ltr] .al-start-12 {
+  left: 12px !important;
+}
+html[dir=ltr] .al-start-n-12 {
+  left: -12px !important;
+}
+html[dir=ltr] .al-end-12 {
+  right: 12px !important;
 }
 html[dir=ltr] .al-end-n-12 {
   right: -12px !important;
 }
+html[dir=ltr] .al-start-14 {
+  left: 14px !important;
+}
+html[dir=ltr] .al-start-n-14 {
+  left: -14px !important;
+}
+html[dir=ltr] .al-end-14 {
+  right: 14px !important;
+}
 html[dir=ltr] .al-end-n-14 {
   right: -14px !important;
+}
+html[dir=ltr] .al-start-15 {
+  left: 15px !important;
+}
+html[dir=ltr] .al-start-n-15 {
+  left: -15px !important;
+}
+html[dir=ltr] .al-end-15 {
+  right: 15px !important;
 }
 html[dir=ltr] .al-end-n-15 {
   right: -15px !important;
 }
+html[dir=ltr] .al-start-16 {
+  left: 16px !important;
+}
+html[dir=ltr] .al-start-n-16 {
+  left: -16px !important;
+}
+html[dir=ltr] .al-end-16 {
+  right: 16px !important;
+}
 html[dir=ltr] .al-end-n-16 {
   right: -16px !important;
+}
+html[dir=ltr] .al-start-20 {
+  left: 20px !important;
+}
+html[dir=ltr] .al-start-n-20 {
+  left: -20px !important;
+}
+html[dir=ltr] .al-end-20 {
+  right: 20px !important;
 }
 html[dir=ltr] .al-end-n-20 {
   right: -20px !important;
 }
+html[dir=ltr] .al-start-24 {
+  left: 24px !important;
+}
+html[dir=ltr] .al-start-n-24 {
+  left: -24px !important;
+}
+html[dir=ltr] .al-end-24 {
+  right: 24px !important;
+}
 html[dir=ltr] .al-end-n-24 {
   right: -24px !important;
+}
+html[dir=ltr] .al-start-32 {
+  left: 32px !important;
+}
+html[dir=ltr] .al-start-n-32 {
+  left: -32px !important;
+}
+html[dir=ltr] .al-end-32 {
+  right: 32px !important;
 }
 html[dir=ltr] .al-end-n-32 {
   right: -32px !important;
 }
+html[dir=ltr] .al-start-48 {
+  left: 48px !important;
+}
+html[dir=ltr] .al-start-n-48 {
+  left: -48px !important;
+}
+html[dir=ltr] .al-end-48 {
+  right: 48px !important;
+}
 html[dir=ltr] .al-end-n-48 {
   right: -48px !important;
+}
+html[dir=ltr] .al-start-64 {
+  left: 64px !important;
+}
+html[dir=ltr] .al-start-n-64 {
+  left: -64px !important;
+}
+html[dir=ltr] .al-end-64 {
+  right: 64px !important;
 }
 html[dir=ltr] .al-end-n-64 {
   right: -64px !important;
 }
-html[dir=rtl] .al {
-  /*=== position start +ve utilities ===*/
-}
+
+/* RTL */
 html[dir=rtl] .al-start-0 {
   right: 0px !important;
 }
-html[dir=rtl] .al-start-1 {
-  right: 1px !important;
-}
-html[dir=rtl] .al-start-2 {
-  right: 2px !important;
-}
-html[dir=rtl] .al-start-3 {
-  right: 3px !important;
-}
-html[dir=rtl] .al-start-4 {
-  right: 4px !important;
-}
-html[dir=rtl] .al-start-5 {
-  right: 5px !important;
-}
-html[dir=rtl] .al-start-6 {
-  right: 6px !important;
-}
-html[dir=rtl] .al-start-7 {
-  right: 7px !important;
-}
-html[dir=rtl] .al-start-8 {
-  right: 8px !important;
-}
-html[dir=rtl] .al-start-9 {
-  right: 9px !important;
-}
-html[dir=rtl] .al-start-10 {
-  right: 10px !important;
-}
-html[dir=rtl] .al-start-12 {
-  right: 12px !important;
-}
-html[dir=rtl] .al-start-14 {
-  right: 14px !important;
-}
-html[dir=rtl] .al-start-15 {
-  right: 15px !important;
-}
-html[dir=rtl] .al-start-16 {
-  right: 16px !important;
-}
-html[dir=rtl] .al-start-20 {
-  right: 20px !important;
-}
-html[dir=rtl] .al-start-24 {
-  right: 24px !important;
-}
-html[dir=rtl] .al-start-32 {
-  right: 32px !important;
-}
-html[dir=rtl] .al-start-48 {
-  right: 48px !important;
-}
-html[dir=rtl] .al-start-64 {
-  right: 64px !important;
-}
-html[dir=rtl] .al {
-  /*=== position end +ve utilities ===*/
+html[dir=rtl] .al-start-n-0 {
+  right: -0px !important;
+  left: inherit !important;
 }
 html[dir=rtl] .al-end-0 {
   left: 0px !important;
 }
-html[dir=rtl] .al-end-1 {
-  left: 1px !important;
+html[dir=rtl] .al-end-n-0 {
+  left: -0px !important;
+  right: inherit !important;
 }
-html[dir=rtl] .al-end-2 {
-  left: 2px !important;
-}
-html[dir=rtl] .al-end-3 {
-  left: 3px !important;
-}
-html[dir=rtl] .al-end-4 {
-  left: 4px !important;
-}
-html[dir=rtl] .al-end-5 {
-  left: 5px !important;
-}
-html[dir=rtl] .al-end-6 {
-  left: 6px !important;
-}
-html[dir=rtl] .al-end-7 {
-  left: 7px !important;
-}
-html[dir=rtl] .al-end-8 {
-  left: 8px !important;
-}
-html[dir=rtl] .al-end-9 {
-  left: 9px !important;
-}
-html[dir=rtl] .al-end-10 {
-  left: 10px !important;
-}
-html[dir=rtl] .al-end-12 {
-  left: 12px !important;
-}
-html[dir=rtl] .al-end-14 {
-  left: 14px !important;
-}
-html[dir=rtl] .al-end-15 {
-  left: 15px !important;
-}
-html[dir=rtl] .al-end-16 {
-  left: 16px !important;
-}
-html[dir=rtl] .al-end-20 {
-  left: 20px !important;
-}
-html[dir=rtl] .al-end-24 {
-  left: 24px !important;
-}
-html[dir=rtl] .al-end-32 {
-  left: 32px !important;
-}
-html[dir=rtl] .al-end-48 {
-  left: 48px !important;
-}
-html[dir=rtl] .al-end-64 {
-  left: 64px !important;
-}
-html[dir=rtl] .al {
-  /*=== position start -ve utilities ===*/
-}
-html[dir=rtl] .al-start-n-0 {
-  right: 0px !important;
-  left: inherit !important;
+html[dir=rtl] .al-start-1 {
+  right: 1px !important;
 }
 html[dir=rtl] .al-start-n-1 {
   right: -1px !important;
   left: inherit !important;
 }
-html[dir=rtl] .al-start-n-2 {
-  right: -2px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-3 {
-  right: -3px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-4 {
-  right: -4px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-5 {
-  right: -5px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-6 {
-  right: -6px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-7 {
-  right: -7px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-8 {
-  right: -8px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-9 {
-  right: -9px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-10 {
-  right: -10px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-12 {
-  right: -12px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-14 {
-  right: -14px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-15 {
-  right: -15px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-16 {
-  right: -16px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-20 {
-  right: -20px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-24 {
-  right: -24px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-32 {
-  right: -32px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-48 {
-  right: -48px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al-start-n-64 {
-  right: -64px !important;
-  left: inherit !important;
-}
-html[dir=rtl] .al {
-  /*=== position end -ve utilities ===*/
-}
-html[dir=rtl] .al-end-n-0 {
-  left: 0px !important;
-  right: inherit !important;
+html[dir=rtl] .al-end-1 {
+  left: 1px !important;
 }
 html[dir=rtl] .al-end-n-1 {
   left: -1px !important;
   right: inherit !important;
 }
+html[dir=rtl] .al-start-2 {
+  right: 2px !important;
+}
+html[dir=rtl] .al-start-n-2 {
+  right: -2px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-2 {
+  left: 2px !important;
+}
 html[dir=rtl] .al-end-n-2 {
   left: -2px !important;
   right: inherit !important;
+}
+html[dir=rtl] .al-start-3 {
+  right: 3px !important;
+}
+html[dir=rtl] .al-start-n-3 {
+  right: -3px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-3 {
+  left: 3px !important;
 }
 html[dir=rtl] .al-end-n-3 {
   left: -3px !important;
   right: inherit !important;
 }
+html[dir=rtl] .al-start-4 {
+  right: 4px !important;
+}
+html[dir=rtl] .al-start-n-4 {
+  right: -4px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-4 {
+  left: 4px !important;
+}
 html[dir=rtl] .al-end-n-4 {
   left: -4px !important;
   right: inherit !important;
+}
+html[dir=rtl] .al-start-5 {
+  right: 5px !important;
+}
+html[dir=rtl] .al-start-n-5 {
+  right: -5px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-5 {
+  left: 5px !important;
 }
 html[dir=rtl] .al-end-n-5 {
   left: -5px !important;
   right: inherit !important;
 }
+html[dir=rtl] .al-start-6 {
+  right: 6px !important;
+}
+html[dir=rtl] .al-start-n-6 {
+  right: -6px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-6 {
+  left: 6px !important;
+}
 html[dir=rtl] .al-end-n-6 {
   left: -6px !important;
   right: inherit !important;
+}
+html[dir=rtl] .al-start-7 {
+  right: 7px !important;
+}
+html[dir=rtl] .al-start-n-7 {
+  right: -7px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-7 {
+  left: 7px !important;
 }
 html[dir=rtl] .al-end-n-7 {
   left: -7px !important;
   right: inherit !important;
 }
+html[dir=rtl] .al-start-8 {
+  right: 8px !important;
+}
+html[dir=rtl] .al-start-n-8 {
+  right: -8px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-8 {
+  left: 8px !important;
+}
 html[dir=rtl] .al-end-n-8 {
   left: -8px !important;
   right: inherit !important;
+}
+html[dir=rtl] .al-start-9 {
+  right: 9px !important;
+}
+html[dir=rtl] .al-start-n-9 {
+  right: -9px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-9 {
+  left: 9px !important;
 }
 html[dir=rtl] .al-end-n-9 {
   left: -9px !important;
   right: inherit !important;
 }
+html[dir=rtl] .al-start-10 {
+  right: 10px !important;
+}
+html[dir=rtl] .al-start-n-10 {
+  right: -10px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-10 {
+  left: 10px !important;
+}
 html[dir=rtl] .al-end-n-10 {
   left: -10px !important;
   right: inherit !important;
+}
+html[dir=rtl] .al-start-12 {
+  right: 12px !important;
+}
+html[dir=rtl] .al-start-n-12 {
+  right: -12px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-12 {
+  left: 12px !important;
 }
 html[dir=rtl] .al-end-n-12 {
   left: -12px !important;
   right: inherit !important;
 }
+html[dir=rtl] .al-start-14 {
+  right: 14px !important;
+}
+html[dir=rtl] .al-start-n-14 {
+  right: -14px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-14 {
+  left: 14px !important;
+}
 html[dir=rtl] .al-end-n-14 {
   left: -14px !important;
   right: inherit !important;
+}
+html[dir=rtl] .al-start-15 {
+  right: 15px !important;
+}
+html[dir=rtl] .al-start-n-15 {
+  right: -15px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-15 {
+  left: 15px !important;
 }
 html[dir=rtl] .al-end-n-15 {
   left: -15px !important;
   right: inherit !important;
 }
+html[dir=rtl] .al-start-16 {
+  right: 16px !important;
+}
+html[dir=rtl] .al-start-n-16 {
+  right: -16px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-16 {
+  left: 16px !important;
+}
 html[dir=rtl] .al-end-n-16 {
   left: -16px !important;
   right: inherit !important;
+}
+html[dir=rtl] .al-start-20 {
+  right: 20px !important;
+}
+html[dir=rtl] .al-start-n-20 {
+  right: -20px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-20 {
+  left: 20px !important;
 }
 html[dir=rtl] .al-end-n-20 {
   left: -20px !important;
   right: inherit !important;
 }
+html[dir=rtl] .al-start-24 {
+  right: 24px !important;
+}
+html[dir=rtl] .al-start-n-24 {
+  right: -24px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-24 {
+  left: 24px !important;
+}
 html[dir=rtl] .al-end-n-24 {
   left: -24px !important;
   right: inherit !important;
+}
+html[dir=rtl] .al-start-32 {
+  right: 32px !important;
+}
+html[dir=rtl] .al-start-n-32 {
+  right: -32px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-32 {
+  left: 32px !important;
 }
 html[dir=rtl] .al-end-n-32 {
   left: -32px !important;
   right: inherit !important;
 }
+html[dir=rtl] .al-start-48 {
+  right: 48px !important;
+}
+html[dir=rtl] .al-start-n-48 {
+  right: -48px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-48 {
+  left: 48px !important;
+}
 html[dir=rtl] .al-end-n-48 {
   left: -48px !important;
   right: inherit !important;
+}
+html[dir=rtl] .al-start-64 {
+  right: 64px !important;
+}
+html[dir=rtl] .al-start-n-64 {
+  right: -64px !important;
+  left: inherit !important;
+}
+html[dir=rtl] .al-end-64 {
+  left: 64px !important;
 }
 html[dir=rtl] .al-end-n-64 {
   left: -64px !important;
   right: inherit !important;
 }
 
+/*========================
+  Responsive position utilities
+=========================*/
+/* Generate responsive classes */
 @media (min-width: 1400px) {
   .al-position-xxl-fixed {
     position: fixed !important;

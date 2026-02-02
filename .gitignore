@@ -7,7 +7,6 @@
 node_modules/
 npm-debug.log
 yarn-error.log
-buildScripts/
 
 # OS Files
 .DS_Store
@@ -65,5 +64,6 @@ docs/
 !dist/
 !scss/
 !js/
+!buildScripts/
 !LICENSE
 !README.md
