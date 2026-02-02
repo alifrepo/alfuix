@@ -1,0 +1,268 @@
+@use "sass:meta";
+@use "sass:string";
+// @use'../varibles' as*;
+
+/*====== Varibles start =====*/
+@mixin apply-to-all($mixin, $list) {
+    @each $element in $list {
+      @include meta.apply($mixin, $element);
+    }
+}
+$sizes: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 20, 24, 32, 48, 64;
+
+
+.al{
+    /*=== position top +ve utilities ===*/
+    @mixin object-position-top($value) {
+        &-top-#{$value} {
+            top: $value+px !important;
+        }
+    }
+    @include apply-to-all(meta.get-mixin("object-position-top"), $sizes);
+
+
+    /*=== position bottom +ve utilities ===*/
+    @mixin object-position-bottom($value) {
+        &-bottom-#{$value} {
+            bottom: $value+px !important;
+        }
+    }
+    @include apply-to-all(meta.get-mixin("object-position-bottom"), $sizes);
+
+
+    /*=== position top -ve utilities ===*/
+    @mixin object-position-top($value) {
+        &-top-n-#{$value} {
+            top: -$value+px !important;
+        }
+    }
+    @include apply-to-all(meta.get-mixin("object-position-top"), $sizes);
+
+
+    /*=== position bottom -ve utilities ===*/
+    @mixin object-position-bottom($value) {
+        &-bottom-n-#{$value} {
+            bottom: -$value+px !important;
+        }
+    }
+    @include apply-to-all(meta.get-mixin("object-position-bottom"), $sizes);
+
+
+    //object center (dependent on position 'absolute' or 'fixed')
+    &-object-center{
+        top:50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+
+        &-y{
+            top:50% !important;
+            transform: translateY(-50%) !important;
+        }
+        
+        &-x{
+            left:50% !important;
+            transform: translateX(-50%) !important;
+        }
+    }
+
+
+}
+
+
+
+/* ===== position (left & right) RTL & LTR ===== */
+html{
+    &[dir=ltr]{
+        .al{
+            /*=== position start +ve utilities ===*/
+            @mixin object-position-start($value) {
+                &-start-#{$value} {
+                    left: $value+px !important;
+                }
+            }
+            @include apply-to-all(meta.get-mixin("object-position-start"), $sizes);
+
+
+            /*=== position end +ve utilities ===*/
+            @mixin object-position-end($value) {
+                &-end-#{$value} {
+                    right: $value+px !important;
+                }
+            }
+            @include apply-to-all(meta.get-mixin("object-position-end"), $sizes);
+
+
+            /*=== position start -ve utilities ===*/
+            @mixin object-position-start($value) {
+                &-start-n-#{$value} {
+                    left: -$value+px !important;
+                }
+            }
+            @include apply-to-all(meta.get-mixin("object-position-start"), $sizes);
+
+
+            /*=== position end -ve utilities ===*/
+            @mixin object-position-end($value) {
+                &-end-n-#{$value} {
+                    right: -$value+px !important;
+                }
+            }
+            @include apply-to-all(meta.get-mixin("object-position-end"), $sizes);
+        }
+    }
+    &[dir=rtl]{
+        .al{
+            /*=== position start +ve utilities ===*/
+            @mixin object-position-start($value) {
+                &-start-#{$value} {
+                    right: $value+px !important;
+                }
+            }
+            @include apply-to-all(meta.get-mixin("object-position-start"), $sizes);
+
+
+            /*=== position end +ve utilities ===*/
+            @mixin object-position-end($value) {
+                &-end-#{$value} {
+                    left: $value+px !important;
+                }
+            }
+            @include apply-to-all(meta.get-mixin("object-position-end"), $sizes);
+
+
+            /*=== position start -ve utilities ===*/
+            @mixin object-position-start($value) {
+                &-start-n-#{$value} {
+                    right: -$value+px !important;
+                    left: inherit !important;
+                }
+            }
+            @include apply-to-all(meta.get-mixin("object-position-start"), $sizes);
+
+
+            /*=== position end -ve utilities ===*/
+            @mixin object-position-end($value) {
+                &-end-n-#{$value} {
+                    left: -$value+px !important;
+                    right: inherit !important;
+                }
+            }
+            @include apply-to-all(meta.get-mixin("object-position-end"), $sizes);
+        }
+    }
+}
+
+
+@media (min-width:1400px){
+    .al{
+        &-position-xxl{
+            &-fixed{
+                position: fixed !important;
+            }
+            &-absolute{
+                position: absolute !important;
+            }
+            &-relative{
+                position: relative !important;
+            }
+            &-sticky{
+                position: sticky !important;
+            }
+            &-static{
+                position: static !important;
+            }
+        }
+    }
+}
+
+
+@media (min-width:1200px){
+    .al{
+        &-position-xl{
+            &-fixed{
+                position: fixed !important;
+            }
+            &-absolute{
+                position: absolute !important;
+            }
+            &-relative{
+                position: relative !important;
+            }
+            &-sticky{
+                position: sticky !important;
+            }
+            &-static{
+                position: static !important;
+            }
+        }
+    }
+}
+
+
+@media (min-width:992px){
+    .al{
+        &-position-lg{
+            &-fixed{
+                position: fixed !important;
+            }
+            &-absolute{
+                position: absolute !important;
+            }
+            &-relative{
+                position: relative !important;
+            }
+            &-sticky{
+                position: sticky !important;
+            }
+            &-static{
+                position: static !important;
+            }
+        }
+    }
+}
+
+
+@media (min-width:768px){
+    .al{
+        &-position-md{
+            &-fixed{
+                position: fixed !important;
+            }
+            &-absolute{
+                position: absolute !important;
+            }
+            &-relative{
+                position: relative !important;
+            }
+            &-sticky{
+                position: sticky !important;
+            }
+            &-static{
+                position: static !important;
+            }
+        }
+    }
+}
+
+
+@media (min-width:575px){
+    .al{
+        &-position-sm{
+            &-fixed{
+                position: fixed !important;
+            }
+                &-absolute{
+                position: absolute !important;
+            }
+                &-relative{
+                position: relative !important;
+            }
+                &-sticky{
+                position: sticky !important;
+            }
+                &-static{
+                position: static !important;
+            }
+        }
+    }
+}
