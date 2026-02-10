@@ -75,7 +75,7 @@ $trapezoid-sizes: ( 10: 10%, 25: 25%, 50: 50%, 75: 75%);
 
 /* ===== clip Rtl & Ltr ===== */
 html{
-    &[dir=ltr]{
+    &:not([dir]), &[dir=""], &[dir=ltr]{
         .al{
             // Shape trinagle & trapezoid
             @each $key, $value in $triangle-sizes {

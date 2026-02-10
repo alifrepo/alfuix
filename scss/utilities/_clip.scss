@@ -1331,7 +1331,7 @@
 
 /* ===== clip Rtl & Ltr ===== */
 html{
-    &[dir=ltr]{
+    &:not([dir]), &[dir=""], &[dir=ltr]{
         .al{ 
             &-e-clip-y{
                 --al-extend-e:50px !important;

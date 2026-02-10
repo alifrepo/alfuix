@@ -56,26 +56,26 @@ $sizes: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 20, 24, 32, 48, 64;
   RTL / LTR directional utilities
 =========================*/
 
-/* LTR */
 html[dir=ltr] {
-  .al {
-    @each $value in $sizes {
-      &-start-#{$value} { left: #{$value}px !important; }
-      &-start-n-#{$value} { left: -#{$value}px !important; }
-      &-end-#{$value} { right: #{$value}px !important; }
-      &-end-n-#{$value} { right: -#{$value}px !important; }
+  &:not([dir]), &[dir=""], &[dir=ltr]{
+    .al {
+      @each $value in $sizes {
+        &-start-#{$value} { left: #{$value}px !important; }
+        &-start-n-#{$value} { left: -#{$value}px !important; }
+        &-end-#{$value} { right: #{$value}px !important; }
+        &-end-n-#{$value} { right: -#{$value}px !important; }
+      }
     }
   }
-}
-
-/* RTL */
-html[dir=rtl] {
-  .al {
-    @each $value in $sizes {
-      &-start-#{$value} { right: #{$value}px !important; }
-      &-start-n-#{$value} { right: -#{$value}px !important; left: inherit !important; }
-      &-end-#{$value} { left: #{$value}px !important; }
-      &-end-n-#{$value} { left: -#{$value}px !important; right: inherit !important; }
+  
+  &[dir=rtl]{
+    .al {
+      @each $value in $sizes {
+        &-start-#{$value} { right: #{$value}px !important; }
+        &-start-n-#{$value} { right: -#{$value}px !important; left: inherit !important; }
+        &-end-#{$value} { left: #{$value}px !important; }
+        &-end-n-#{$value} { left: -#{$value}px !important; right: inherit !important; }
+      }
     }
   }
 }

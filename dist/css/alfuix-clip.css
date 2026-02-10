@@ -1,5 +1,5 @@
 /*!
- * alfuix v1.0.12 (https://alfuix.com/)
+ * alfuix v1.0.13 (https://alfuix.com/)
  * Copyright 2026 - The Alfuix Authors
  * Licensed under MIT https://github.com/alifrepo/alfuix/blob/main/LICENSE
  */
@@ -3026,1026 +3026,1026 @@
 }
 
 /* ===== clip Rtl & Ltr ===== */
-html[dir=ltr] .al-e-clip-y {
+html:not([dir]) .al-e-clip-y, html[dir=""] .al-e-clip-y, html[dir=ltr] .al-e-clip-y {
   --al-extend-e:50px !important;
   --al-e:16px !important;
 }
-html[dir=ltr] .al-s-clip-y {
+html:not([dir]) .al-s-clip-y, html[dir=""] .al-s-clip-y, html[dir=ltr] .al-s-clip-y {
   --al-extend-s:50px !important;
   --al-s:16px !important;
 }
-html[dir=ltr] .al-ts {
+html:not([dir]) .al-ts, html[dir=""] .al-ts, html[dir=ltr] .al-ts {
   --al-ts:16px !important;
 }
-html[dir=ltr] .al-te {
+html:not([dir]) .al-te, html[dir=""] .al-te, html[dir=ltr] .al-te {
   --al-te:16px !important;
 }
-html[dir=ltr] .al-be {
+html:not([dir]) .al-be, html[dir=""] .al-be, html[dir=ltr] .al-be {
   --al-be:16px !important;
 }
-html[dir=ltr] .al-bs {
+html:not([dir]) .al-bs, html[dir=""] .al-bs, html[dir=ltr] .al-bs {
   --al-bs:16px !important;
 }
-html[dir=ltr] .al-ts-0 {
+html:not([dir]) .al-ts-0, html[dir=""] .al-ts-0, html[dir=ltr] .al-ts-0 {
   --al-ts: 0px !important;
 }
-html[dir=ltr] .al-te-0 {
+html:not([dir]) .al-te-0, html[dir=""] .al-te-0, html[dir=ltr] .al-te-0 {
   --al-te: 0px !important;
 }
-html[dir=ltr] .al-bs-0 {
+html:not([dir]) .al-bs-0, html[dir=""] .al-bs-0, html[dir=ltr] .al-bs-0 {
   --al-bs: 0px !important;
 }
-html[dir=ltr] .al-be-0 {
+html:not([dir]) .al-be-0, html[dir=""] .al-be-0, html[dir=ltr] .al-be-0 {
   --al-be: 0px !important;
 }
-html[dir=ltr] .al-ts-1 {
+html:not([dir]) .al-ts-1, html[dir=""] .al-ts-1, html[dir=ltr] .al-ts-1 {
   --al-ts: 1px !important;
 }
-html[dir=ltr] .al-te-1 {
+html:not([dir]) .al-te-1, html[dir=""] .al-te-1, html[dir=ltr] .al-te-1 {
   --al-te: 1px !important;
 }
-html[dir=ltr] .al-bs-1 {
+html:not([dir]) .al-bs-1, html[dir=""] .al-bs-1, html[dir=ltr] .al-bs-1 {
   --al-bs: 1px !important;
 }
-html[dir=ltr] .al-be-1 {
+html:not([dir]) .al-be-1, html[dir=""] .al-be-1, html[dir=ltr] .al-be-1 {
   --al-be: 1px !important;
 }
-html[dir=ltr] .al-ts-2 {
+html:not([dir]) .al-ts-2, html[dir=""] .al-ts-2, html[dir=ltr] .al-ts-2 {
   --al-ts: 2px !important;
 }
-html[dir=ltr] .al-te-2 {
+html:not([dir]) .al-te-2, html[dir=""] .al-te-2, html[dir=ltr] .al-te-2 {
   --al-te: 2px !important;
 }
-html[dir=ltr] .al-bs-2 {
+html:not([dir]) .al-bs-2, html[dir=""] .al-bs-2, html[dir=ltr] .al-bs-2 {
   --al-bs: 2px !important;
 }
-html[dir=ltr] .al-be-2 {
+html:not([dir]) .al-be-2, html[dir=""] .al-be-2, html[dir=ltr] .al-be-2 {
   --al-be: 2px !important;
 }
-html[dir=ltr] .al-ts-3 {
+html:not([dir]) .al-ts-3, html[dir=""] .al-ts-3, html[dir=ltr] .al-ts-3 {
   --al-ts: 3px !important;
 }
-html[dir=ltr] .al-te-3 {
+html:not([dir]) .al-te-3, html[dir=""] .al-te-3, html[dir=ltr] .al-te-3 {
   --al-te: 3px !important;
 }
-html[dir=ltr] .al-bs-3 {
+html:not([dir]) .al-bs-3, html[dir=""] .al-bs-3, html[dir=ltr] .al-bs-3 {
   --al-bs: 3px !important;
 }
-html[dir=ltr] .al-be-3 {
+html:not([dir]) .al-be-3, html[dir=""] .al-be-3, html[dir=ltr] .al-be-3 {
   --al-be: 3px !important;
 }
-html[dir=ltr] .al-ts-4 {
+html:not([dir]) .al-ts-4, html[dir=""] .al-ts-4, html[dir=ltr] .al-ts-4 {
   --al-ts: 4px !important;
 }
-html[dir=ltr] .al-te-4 {
+html:not([dir]) .al-te-4, html[dir=""] .al-te-4, html[dir=ltr] .al-te-4 {
   --al-te: 4px !important;
 }
-html[dir=ltr] .al-bs-4 {
+html:not([dir]) .al-bs-4, html[dir=""] .al-bs-4, html[dir=ltr] .al-bs-4 {
   --al-bs: 4px !important;
 }
-html[dir=ltr] .al-be-4 {
+html:not([dir]) .al-be-4, html[dir=""] .al-be-4, html[dir=ltr] .al-be-4 {
   --al-be: 4px !important;
 }
-html[dir=ltr] .al-ts-5 {
+html:not([dir]) .al-ts-5, html[dir=""] .al-ts-5, html[dir=ltr] .al-ts-5 {
   --al-ts: 5px !important;
 }
-html[dir=ltr] .al-te-5 {
+html:not([dir]) .al-te-5, html[dir=""] .al-te-5, html[dir=ltr] .al-te-5 {
   --al-te: 5px !important;
 }
-html[dir=ltr] .al-bs-5 {
+html:not([dir]) .al-bs-5, html[dir=""] .al-bs-5, html[dir=ltr] .al-bs-5 {
   --al-bs: 5px !important;
 }
-html[dir=ltr] .al-be-5 {
+html:not([dir]) .al-be-5, html[dir=""] .al-be-5, html[dir=ltr] .al-be-5 {
   --al-be: 5px !important;
 }
-html[dir=ltr] .al-ts-6 {
+html:not([dir]) .al-ts-6, html[dir=""] .al-ts-6, html[dir=ltr] .al-ts-6 {
   --al-ts: 6px !important;
 }
-html[dir=ltr] .al-te-6 {
+html:not([dir]) .al-te-6, html[dir=""] .al-te-6, html[dir=ltr] .al-te-6 {
   --al-te: 6px !important;
 }
-html[dir=ltr] .al-bs-6 {
+html:not([dir]) .al-bs-6, html[dir=""] .al-bs-6, html[dir=ltr] .al-bs-6 {
   --al-bs: 6px !important;
 }
-html[dir=ltr] .al-be-6 {
+html:not([dir]) .al-be-6, html[dir=""] .al-be-6, html[dir=ltr] .al-be-6 {
   --al-be: 6px !important;
 }
-html[dir=ltr] .al-ts-7 {
+html:not([dir]) .al-ts-7, html[dir=""] .al-ts-7, html[dir=ltr] .al-ts-7 {
   --al-ts: 7px !important;
 }
-html[dir=ltr] .al-te-7 {
+html:not([dir]) .al-te-7, html[dir=""] .al-te-7, html[dir=ltr] .al-te-7 {
   --al-te: 7px !important;
 }
-html[dir=ltr] .al-bs-7 {
+html:not([dir]) .al-bs-7, html[dir=""] .al-bs-7, html[dir=ltr] .al-bs-7 {
   --al-bs: 7px !important;
 }
-html[dir=ltr] .al-be-7 {
+html:not([dir]) .al-be-7, html[dir=""] .al-be-7, html[dir=ltr] .al-be-7 {
   --al-be: 7px !important;
 }
-html[dir=ltr] .al-ts-8 {
+html:not([dir]) .al-ts-8, html[dir=""] .al-ts-8, html[dir=ltr] .al-ts-8 {
   --al-ts: 8px !important;
 }
-html[dir=ltr] .al-te-8 {
+html:not([dir]) .al-te-8, html[dir=""] .al-te-8, html[dir=ltr] .al-te-8 {
   --al-te: 8px !important;
 }
-html[dir=ltr] .al-bs-8 {
+html:not([dir]) .al-bs-8, html[dir=""] .al-bs-8, html[dir=ltr] .al-bs-8 {
   --al-bs: 8px !important;
 }
-html[dir=ltr] .al-be-8 {
+html:not([dir]) .al-be-8, html[dir=""] .al-be-8, html[dir=ltr] .al-be-8 {
   --al-be: 8px !important;
 }
-html[dir=ltr] .al-ts-9 {
+html:not([dir]) .al-ts-9, html[dir=""] .al-ts-9, html[dir=ltr] .al-ts-9 {
   --al-ts: 9px !important;
 }
-html[dir=ltr] .al-te-9 {
+html:not([dir]) .al-te-9, html[dir=""] .al-te-9, html[dir=ltr] .al-te-9 {
   --al-te: 9px !important;
 }
-html[dir=ltr] .al-bs-9 {
+html:not([dir]) .al-bs-9, html[dir=""] .al-bs-9, html[dir=ltr] .al-bs-9 {
   --al-bs: 9px !important;
 }
-html[dir=ltr] .al-be-9 {
+html:not([dir]) .al-be-9, html[dir=""] .al-be-9, html[dir=ltr] .al-be-9 {
   --al-be: 9px !important;
 }
-html[dir=ltr] .al-ts-10 {
+html:not([dir]) .al-ts-10, html[dir=""] .al-ts-10, html[dir=ltr] .al-ts-10 {
   --al-ts: 10px !important;
 }
-html[dir=ltr] .al-te-10 {
+html:not([dir]) .al-te-10, html[dir=""] .al-te-10, html[dir=ltr] .al-te-10 {
   --al-te: 10px !important;
 }
-html[dir=ltr] .al-bs-10 {
+html:not([dir]) .al-bs-10, html[dir=""] .al-bs-10, html[dir=ltr] .al-bs-10 {
   --al-bs: 10px !important;
 }
-html[dir=ltr] .al-be-10 {
+html:not([dir]) .al-be-10, html[dir=""] .al-be-10, html[dir=ltr] .al-be-10 {
   --al-be: 10px !important;
 }
-html[dir=ltr] .al-ts-11 {
+html:not([dir]) .al-ts-11, html[dir=""] .al-ts-11, html[dir=ltr] .al-ts-11 {
   --al-ts: 11px !important;
 }
-html[dir=ltr] .al-te-11 {
+html:not([dir]) .al-te-11, html[dir=""] .al-te-11, html[dir=ltr] .al-te-11 {
   --al-te: 11px !important;
 }
-html[dir=ltr] .al-bs-11 {
+html:not([dir]) .al-bs-11, html[dir=""] .al-bs-11, html[dir=ltr] .al-bs-11 {
   --al-bs: 11px !important;
 }
-html[dir=ltr] .al-be-11 {
+html:not([dir]) .al-be-11, html[dir=""] .al-be-11, html[dir=ltr] .al-be-11 {
   --al-be: 11px !important;
 }
-html[dir=ltr] .al-ts-12 {
+html:not([dir]) .al-ts-12, html[dir=""] .al-ts-12, html[dir=ltr] .al-ts-12 {
   --al-ts: 12px !important;
 }
-html[dir=ltr] .al-te-12 {
+html:not([dir]) .al-te-12, html[dir=""] .al-te-12, html[dir=ltr] .al-te-12 {
   --al-te: 12px !important;
 }
-html[dir=ltr] .al-bs-12 {
+html:not([dir]) .al-bs-12, html[dir=""] .al-bs-12, html[dir=ltr] .al-bs-12 {
   --al-bs: 12px !important;
 }
-html[dir=ltr] .al-be-12 {
+html:not([dir]) .al-be-12, html[dir=""] .al-be-12, html[dir=ltr] .al-be-12 {
   --al-be: 12px !important;
 }
-html[dir=ltr] .al-ts-13 {
+html:not([dir]) .al-ts-13, html[dir=""] .al-ts-13, html[dir=ltr] .al-ts-13 {
   --al-ts: 13px !important;
 }
-html[dir=ltr] .al-te-13 {
+html:not([dir]) .al-te-13, html[dir=""] .al-te-13, html[dir=ltr] .al-te-13 {
   --al-te: 13px !important;
 }
-html[dir=ltr] .al-bs-13 {
+html:not([dir]) .al-bs-13, html[dir=""] .al-bs-13, html[dir=ltr] .al-bs-13 {
   --al-bs: 13px !important;
 }
-html[dir=ltr] .al-be-13 {
+html:not([dir]) .al-be-13, html[dir=""] .al-be-13, html[dir=ltr] .al-be-13 {
   --al-be: 13px !important;
 }
-html[dir=ltr] .al-ts-14 {
+html:not([dir]) .al-ts-14, html[dir=""] .al-ts-14, html[dir=ltr] .al-ts-14 {
   --al-ts: 14px !important;
 }
-html[dir=ltr] .al-te-14 {
+html:not([dir]) .al-te-14, html[dir=""] .al-te-14, html[dir=ltr] .al-te-14 {
   --al-te: 14px !important;
 }
-html[dir=ltr] .al-bs-14 {
+html:not([dir]) .al-bs-14, html[dir=""] .al-bs-14, html[dir=ltr] .al-bs-14 {
   --al-bs: 14px !important;
 }
-html[dir=ltr] .al-be-14 {
+html:not([dir]) .al-be-14, html[dir=""] .al-be-14, html[dir=ltr] .al-be-14 {
   --al-be: 14px !important;
 }
-html[dir=ltr] .al-ts-15 {
+html:not([dir]) .al-ts-15, html[dir=""] .al-ts-15, html[dir=ltr] .al-ts-15 {
   --al-ts: 15px !important;
 }
-html[dir=ltr] .al-te-15 {
+html:not([dir]) .al-te-15, html[dir=""] .al-te-15, html[dir=ltr] .al-te-15 {
   --al-te: 15px !important;
 }
-html[dir=ltr] .al-bs-15 {
+html:not([dir]) .al-bs-15, html[dir=""] .al-bs-15, html[dir=ltr] .al-bs-15 {
   --al-bs: 15px !important;
 }
-html[dir=ltr] .al-be-15 {
+html:not([dir]) .al-be-15, html[dir=""] .al-be-15, html[dir=ltr] .al-be-15 {
   --al-be: 15px !important;
 }
-html[dir=ltr] .al-ts-16 {
+html:not([dir]) .al-ts-16, html[dir=""] .al-ts-16, html[dir=ltr] .al-ts-16 {
   --al-ts: 16px !important;
 }
-html[dir=ltr] .al-te-16 {
+html:not([dir]) .al-te-16, html[dir=""] .al-te-16, html[dir=ltr] .al-te-16 {
   --al-te: 16px !important;
 }
-html[dir=ltr] .al-bs-16 {
+html:not([dir]) .al-bs-16, html[dir=""] .al-bs-16, html[dir=ltr] .al-bs-16 {
   --al-bs: 16px !important;
 }
-html[dir=ltr] .al-be-16 {
+html:not([dir]) .al-be-16, html[dir=""] .al-be-16, html[dir=ltr] .al-be-16 {
   --al-be: 16px !important;
 }
-html[dir=ltr] .al-ts-20 {
+html:not([dir]) .al-ts-20, html[dir=""] .al-ts-20, html[dir=ltr] .al-ts-20 {
   --al-ts: 20px !important;
 }
-html[dir=ltr] .al-te-20 {
+html:not([dir]) .al-te-20, html[dir=""] .al-te-20, html[dir=ltr] .al-te-20 {
   --al-te: 20px !important;
 }
-html[dir=ltr] .al-bs-20 {
+html:not([dir]) .al-bs-20, html[dir=""] .al-bs-20, html[dir=ltr] .al-bs-20 {
   --al-bs: 20px !important;
 }
-html[dir=ltr] .al-be-20 {
+html:not([dir]) .al-be-20, html[dir=""] .al-be-20, html[dir=ltr] .al-be-20 {
   --al-be: 20px !important;
 }
-html[dir=ltr] .al-ts-24 {
+html:not([dir]) .al-ts-24, html[dir=""] .al-ts-24, html[dir=ltr] .al-ts-24 {
   --al-ts: 24px !important;
 }
-html[dir=ltr] .al-te-24 {
+html:not([dir]) .al-te-24, html[dir=""] .al-te-24, html[dir=ltr] .al-te-24 {
   --al-te: 24px !important;
 }
-html[dir=ltr] .al-bs-24 {
+html:not([dir]) .al-bs-24, html[dir=""] .al-bs-24, html[dir=ltr] .al-bs-24 {
   --al-bs: 24px !important;
 }
-html[dir=ltr] .al-be-24 {
+html:not([dir]) .al-be-24, html[dir=""] .al-be-24, html[dir=ltr] .al-be-24 {
   --al-be: 24px !important;
 }
-html[dir=ltr] .al-ts-25 {
+html:not([dir]) .al-ts-25, html[dir=""] .al-ts-25, html[dir=ltr] .al-ts-25 {
   --al-ts: 25px !important;
 }
-html[dir=ltr] .al-te-25 {
+html:not([dir]) .al-te-25, html[dir=""] .al-te-25, html[dir=ltr] .al-te-25 {
   --al-te: 25px !important;
 }
-html[dir=ltr] .al-bs-25 {
+html:not([dir]) .al-bs-25, html[dir=""] .al-bs-25, html[dir=ltr] .al-bs-25 {
   --al-bs: 25px !important;
 }
-html[dir=ltr] .al-be-25 {
+html:not([dir]) .al-be-25, html[dir=""] .al-be-25, html[dir=ltr] .al-be-25 {
   --al-be: 25px !important;
 }
-html[dir=ltr] .al-ts-26 {
+html:not([dir]) .al-ts-26, html[dir=""] .al-ts-26, html[dir=ltr] .al-ts-26 {
   --al-ts: 26px !important;
 }
-html[dir=ltr] .al-te-26 {
+html:not([dir]) .al-te-26, html[dir=""] .al-te-26, html[dir=ltr] .al-te-26 {
   --al-te: 26px !important;
 }
-html[dir=ltr] .al-bs-26 {
+html:not([dir]) .al-bs-26, html[dir=""] .al-bs-26, html[dir=ltr] .al-bs-26 {
   --al-bs: 26px !important;
 }
-html[dir=ltr] .al-be-26 {
+html:not([dir]) .al-be-26, html[dir=""] .al-be-26, html[dir=ltr] .al-be-26 {
   --al-be: 26px !important;
 }
-html[dir=ltr] .al-ts-28 {
+html:not([dir]) .al-ts-28, html[dir=""] .al-ts-28, html[dir=ltr] .al-ts-28 {
   --al-ts: 28px !important;
 }
-html[dir=ltr] .al-te-28 {
+html:not([dir]) .al-te-28, html[dir=""] .al-te-28, html[dir=ltr] .al-te-28 {
   --al-te: 28px !important;
 }
-html[dir=ltr] .al-bs-28 {
+html:not([dir]) .al-bs-28, html[dir=""] .al-bs-28, html[dir=ltr] .al-bs-28 {
   --al-bs: 28px !important;
 }
-html[dir=ltr] .al-be-28 {
+html:not([dir]) .al-be-28, html[dir=""] .al-be-28, html[dir=ltr] .al-be-28 {
   --al-be: 28px !important;
 }
-html[dir=ltr] .al-ts-30 {
+html:not([dir]) .al-ts-30, html[dir=""] .al-ts-30, html[dir=ltr] .al-ts-30 {
   --al-ts: 30px !important;
 }
-html[dir=ltr] .al-te-30 {
+html:not([dir]) .al-te-30, html[dir=""] .al-te-30, html[dir=ltr] .al-te-30 {
   --al-te: 30px !important;
 }
-html[dir=ltr] .al-bs-30 {
+html:not([dir]) .al-bs-30, html[dir=""] .al-bs-30, html[dir=ltr] .al-bs-30 {
   --al-bs: 30px !important;
 }
-html[dir=ltr] .al-be-30 {
+html:not([dir]) .al-be-30, html[dir=""] .al-be-30, html[dir=ltr] .al-be-30 {
   --al-be: 30px !important;
 }
-html[dir=ltr] .al-ts-32 {
+html:not([dir]) .al-ts-32, html[dir=""] .al-ts-32, html[dir=ltr] .al-ts-32 {
   --al-ts: 32px !important;
 }
-html[dir=ltr] .al-te-32 {
+html:not([dir]) .al-te-32, html[dir=""] .al-te-32, html[dir=ltr] .al-te-32 {
   --al-te: 32px !important;
 }
-html[dir=ltr] .al-bs-32 {
+html:not([dir]) .al-bs-32, html[dir=""] .al-bs-32, html[dir=ltr] .al-bs-32 {
   --al-bs: 32px !important;
 }
-html[dir=ltr] .al-be-32 {
+html:not([dir]) .al-be-32, html[dir=""] .al-be-32, html[dir=ltr] .al-be-32 {
   --al-be: 32px !important;
 }
-html[dir=ltr] .al-ts-34 {
+html:not([dir]) .al-ts-34, html[dir=""] .al-ts-34, html[dir=ltr] .al-ts-34 {
   --al-ts: 34px !important;
 }
-html[dir=ltr] .al-te-34 {
+html:not([dir]) .al-te-34, html[dir=""] .al-te-34, html[dir=ltr] .al-te-34 {
   --al-te: 34px !important;
 }
-html[dir=ltr] .al-bs-34 {
+html:not([dir]) .al-bs-34, html[dir=""] .al-bs-34, html[dir=ltr] .al-bs-34 {
   --al-bs: 34px !important;
 }
-html[dir=ltr] .al-be-34 {
+html:not([dir]) .al-be-34, html[dir=""] .al-be-34, html[dir=ltr] .al-be-34 {
   --al-be: 34px !important;
 }
-html[dir=ltr] .al-ts-35 {
+html:not([dir]) .al-ts-35, html[dir=""] .al-ts-35, html[dir=ltr] .al-ts-35 {
   --al-ts: 35px !important;
 }
-html[dir=ltr] .al-te-35 {
+html:not([dir]) .al-te-35, html[dir=""] .al-te-35, html[dir=ltr] .al-te-35 {
   --al-te: 35px !important;
 }
-html[dir=ltr] .al-bs-35 {
+html:not([dir]) .al-bs-35, html[dir=""] .al-bs-35, html[dir=ltr] .al-bs-35 {
   --al-bs: 35px !important;
 }
-html[dir=ltr] .al-be-35 {
+html:not([dir]) .al-be-35, html[dir=""] .al-be-35, html[dir=ltr] .al-be-35 {
   --al-be: 35px !important;
 }
-html[dir=ltr] .al-ts-36 {
+html:not([dir]) .al-ts-36, html[dir=""] .al-ts-36, html[dir=ltr] .al-ts-36 {
   --al-ts: 36px !important;
 }
-html[dir=ltr] .al-te-36 {
+html:not([dir]) .al-te-36, html[dir=""] .al-te-36, html[dir=ltr] .al-te-36 {
   --al-te: 36px !important;
 }
-html[dir=ltr] .al-bs-36 {
+html:not([dir]) .al-bs-36, html[dir=""] .al-bs-36, html[dir=ltr] .al-bs-36 {
   --al-bs: 36px !important;
 }
-html[dir=ltr] .al-be-36 {
+html:not([dir]) .al-be-36, html[dir=""] .al-be-36, html[dir=ltr] .al-be-36 {
   --al-be: 36px !important;
 }
-html[dir=ltr] .al-ts-48 {
+html:not([dir]) .al-ts-48, html[dir=""] .al-ts-48, html[dir=ltr] .al-ts-48 {
   --al-ts: 48px !important;
 }
-html[dir=ltr] .al-te-48 {
+html:not([dir]) .al-te-48, html[dir=""] .al-te-48, html[dir=ltr] .al-te-48 {
   --al-te: 48px !important;
 }
-html[dir=ltr] .al-bs-48 {
+html:not([dir]) .al-bs-48, html[dir=""] .al-bs-48, html[dir=ltr] .al-bs-48 {
   --al-bs: 48px !important;
 }
-html[dir=ltr] .al-be-48 {
+html:not([dir]) .al-be-48, html[dir=""] .al-be-48, html[dir=ltr] .al-be-48 {
   --al-be: 48px !important;
 }
-html[dir=ltr] .al-ts-50 {
+html:not([dir]) .al-ts-50, html[dir=""] .al-ts-50, html[dir=ltr] .al-ts-50 {
   --al-ts: 50px !important;
 }
-html[dir=ltr] .al-te-50 {
+html:not([dir]) .al-te-50, html[dir=""] .al-te-50, html[dir=ltr] .al-te-50 {
   --al-te: 50px !important;
 }
-html[dir=ltr] .al-bs-50 {
+html:not([dir]) .al-bs-50, html[dir=""] .al-bs-50, html[dir=ltr] .al-bs-50 {
   --al-bs: 50px !important;
 }
-html[dir=ltr] .al-be-50 {
+html:not([dir]) .al-be-50, html[dir=""] .al-be-50, html[dir=ltr] .al-be-50 {
   --al-be: 50px !important;
 }
-html[dir=ltr] .al-ts-64 {
+html:not([dir]) .al-ts-64, html[dir=""] .al-ts-64, html[dir=ltr] .al-ts-64 {
   --al-ts: 64px !important;
 }
-html[dir=ltr] .al-te-64 {
+html:not([dir]) .al-te-64, html[dir=""] .al-te-64, html[dir=ltr] .al-te-64 {
   --al-te: 64px !important;
 }
-html[dir=ltr] .al-bs-64 {
+html:not([dir]) .al-bs-64, html[dir=""] .al-bs-64, html[dir=ltr] .al-bs-64 {
   --al-bs: 64px !important;
 }
-html[dir=ltr] .al-be-64 {
+html:not([dir]) .al-be-64, html[dir=""] .al-be-64, html[dir=ltr] .al-be-64 {
   --al-be: 64px !important;
 }
-html[dir=ltr] .al-ts-75 {
+html:not([dir]) .al-ts-75, html[dir=""] .al-ts-75, html[dir=ltr] .al-ts-75 {
   --al-ts: 75px !important;
 }
-html[dir=ltr] .al-te-75 {
+html:not([dir]) .al-te-75, html[dir=""] .al-te-75, html[dir=ltr] .al-te-75 {
   --al-te: 75px !important;
 }
-html[dir=ltr] .al-bs-75 {
+html:not([dir]) .al-bs-75, html[dir=""] .al-bs-75, html[dir=ltr] .al-bs-75 {
   --al-bs: 75px !important;
 }
-html[dir=ltr] .al-be-75 {
+html:not([dir]) .al-be-75, html[dir=""] .al-be-75, html[dir=ltr] .al-be-75 {
   --al-be: 75px !important;
 }
-html[dir=ltr] .al-ts-80 {
+html:not([dir]) .al-ts-80, html[dir=""] .al-ts-80, html[dir=ltr] .al-ts-80 {
   --al-ts: 80px !important;
 }
-html[dir=ltr] .al-te-80 {
+html:not([dir]) .al-te-80, html[dir=""] .al-te-80, html[dir=ltr] .al-te-80 {
   --al-te: 80px !important;
 }
-html[dir=ltr] .al-bs-80 {
+html:not([dir]) .al-bs-80, html[dir=""] .al-bs-80, html[dir=ltr] .al-bs-80 {
   --al-bs: 80px !important;
 }
-html[dir=ltr] .al-be-80 {
+html:not([dir]) .al-be-80, html[dir=""] .al-be-80, html[dir=ltr] .al-be-80 {
   --al-be: 80px !important;
 }
-html[dir=ltr] .al-ts-96 {
+html:not([dir]) .al-ts-96, html[dir=""] .al-ts-96, html[dir=ltr] .al-ts-96 {
   --al-ts: 96px !important;
 }
-html[dir=ltr] .al-te-96 {
+html:not([dir]) .al-te-96, html[dir=""] .al-te-96, html[dir=ltr] .al-te-96 {
   --al-te: 96px !important;
 }
-html[dir=ltr] .al-bs-96 {
+html:not([dir]) .al-bs-96, html[dir=""] .al-bs-96, html[dir=ltr] .al-bs-96 {
   --al-bs: 96px !important;
 }
-html[dir=ltr] .al-be-96 {
+html:not([dir]) .al-be-96, html[dir=""] .al-be-96, html[dir=ltr] .al-be-96 {
   --al-be: 96px !important;
 }
-html[dir=ltr] .al-ts-112 {
+html:not([dir]) .al-ts-112, html[dir=""] .al-ts-112, html[dir=ltr] .al-ts-112 {
   --al-ts: 112px !important;
 }
-html[dir=ltr] .al-te-112 {
+html:not([dir]) .al-te-112, html[dir=""] .al-te-112, html[dir=ltr] .al-te-112 {
   --al-te: 112px !important;
 }
-html[dir=ltr] .al-bs-112 {
+html:not([dir]) .al-bs-112, html[dir=""] .al-bs-112, html[dir=ltr] .al-bs-112 {
   --al-bs: 112px !important;
 }
-html[dir=ltr] .al-be-112 {
+html:not([dir]) .al-be-112, html[dir=""] .al-be-112, html[dir=ltr] .al-be-112 {
   --al-be: 112px !important;
 }
-html[dir=ltr] .al-extend-s-0 {
+html:not([dir]) .al-extend-s-0, html[dir=""] .al-extend-s-0, html[dir=ltr] .al-extend-s-0 {
   --al-extend-s: 0px !important;
 }
-html[dir=ltr] .al-extend-e-0 {
+html:not([dir]) .al-extend-e-0, html[dir=""] .al-extend-e-0, html[dir=ltr] .al-extend-e-0 {
   --al-extend-e: 0px !important;
 }
-html[dir=ltr] .al-s-0 {
+html:not([dir]) .al-s-0, html[dir=""] .al-s-0, html[dir=ltr] .al-s-0 {
   --al-s: 0px !important;
 }
-html[dir=ltr] .al-e-0 {
+html:not([dir]) .al-e-0, html[dir=""] .al-e-0, html[dir=ltr] .al-e-0 {
   --al-e: 0px !important;
 }
-html[dir=ltr] .al-extend-s-1 {
+html:not([dir]) .al-extend-s-1, html[dir=""] .al-extend-s-1, html[dir=ltr] .al-extend-s-1 {
   --al-extend-s: 1px !important;
 }
-html[dir=ltr] .al-extend-e-1 {
+html:not([dir]) .al-extend-e-1, html[dir=""] .al-extend-e-1, html[dir=ltr] .al-extend-e-1 {
   --al-extend-e: 1px !important;
 }
-html[dir=ltr] .al-s-1 {
+html:not([dir]) .al-s-1, html[dir=""] .al-s-1, html[dir=ltr] .al-s-1 {
   --al-s: 1px !important;
 }
-html[dir=ltr] .al-e-1 {
+html:not([dir]) .al-e-1, html[dir=""] .al-e-1, html[dir=ltr] .al-e-1 {
   --al-e: 1px !important;
 }
-html[dir=ltr] .al-extend-s-2 {
+html:not([dir]) .al-extend-s-2, html[dir=""] .al-extend-s-2, html[dir=ltr] .al-extend-s-2 {
   --al-extend-s: 2px !important;
 }
-html[dir=ltr] .al-extend-e-2 {
+html:not([dir]) .al-extend-e-2, html[dir=""] .al-extend-e-2, html[dir=ltr] .al-extend-e-2 {
   --al-extend-e: 2px !important;
 }
-html[dir=ltr] .al-s-2 {
+html:not([dir]) .al-s-2, html[dir=""] .al-s-2, html[dir=ltr] .al-s-2 {
   --al-s: 2px !important;
 }
-html[dir=ltr] .al-e-2 {
+html:not([dir]) .al-e-2, html[dir=""] .al-e-2, html[dir=ltr] .al-e-2 {
   --al-e: 2px !important;
 }
-html[dir=ltr] .al-extend-s-3 {
+html:not([dir]) .al-extend-s-3, html[dir=""] .al-extend-s-3, html[dir=ltr] .al-extend-s-3 {
   --al-extend-s: 3px !important;
 }
-html[dir=ltr] .al-extend-e-3 {
+html:not([dir]) .al-extend-e-3, html[dir=""] .al-extend-e-3, html[dir=ltr] .al-extend-e-3 {
   --al-extend-e: 3px !important;
 }
-html[dir=ltr] .al-s-3 {
+html:not([dir]) .al-s-3, html[dir=""] .al-s-3, html[dir=ltr] .al-s-3 {
   --al-s: 3px !important;
 }
-html[dir=ltr] .al-e-3 {
+html:not([dir]) .al-e-3, html[dir=""] .al-e-3, html[dir=ltr] .al-e-3 {
   --al-e: 3px !important;
 }
-html[dir=ltr] .al-extend-s-4 {
+html:not([dir]) .al-extend-s-4, html[dir=""] .al-extend-s-4, html[dir=ltr] .al-extend-s-4 {
   --al-extend-s: 4px !important;
 }
-html[dir=ltr] .al-extend-e-4 {
+html:not([dir]) .al-extend-e-4, html[dir=""] .al-extend-e-4, html[dir=ltr] .al-extend-e-4 {
   --al-extend-e: 4px !important;
 }
-html[dir=ltr] .al-s-4 {
+html:not([dir]) .al-s-4, html[dir=""] .al-s-4, html[dir=ltr] .al-s-4 {
   --al-s: 4px !important;
 }
-html[dir=ltr] .al-e-4 {
+html:not([dir]) .al-e-4, html[dir=""] .al-e-4, html[dir=ltr] .al-e-4 {
   --al-e: 4px !important;
 }
-html[dir=ltr] .al-extend-s-5 {
+html:not([dir]) .al-extend-s-5, html[dir=""] .al-extend-s-5, html[dir=ltr] .al-extend-s-5 {
   --al-extend-s: 5px !important;
 }
-html[dir=ltr] .al-extend-e-5 {
+html:not([dir]) .al-extend-e-5, html[dir=""] .al-extend-e-5, html[dir=ltr] .al-extend-e-5 {
   --al-extend-e: 5px !important;
 }
-html[dir=ltr] .al-s-5 {
+html:not([dir]) .al-s-5, html[dir=""] .al-s-5, html[dir=ltr] .al-s-5 {
   --al-s: 5px !important;
 }
-html[dir=ltr] .al-e-5 {
+html:not([dir]) .al-e-5, html[dir=""] .al-e-5, html[dir=ltr] .al-e-5 {
   --al-e: 5px !important;
 }
-html[dir=ltr] .al-extend-s-6 {
+html:not([dir]) .al-extend-s-6, html[dir=""] .al-extend-s-6, html[dir=ltr] .al-extend-s-6 {
   --al-extend-s: 6px !important;
 }
-html[dir=ltr] .al-extend-e-6 {
+html:not([dir]) .al-extend-e-6, html[dir=""] .al-extend-e-6, html[dir=ltr] .al-extend-e-6 {
   --al-extend-e: 6px !important;
 }
-html[dir=ltr] .al-s-6 {
+html:not([dir]) .al-s-6, html[dir=""] .al-s-6, html[dir=ltr] .al-s-6 {
   --al-s: 6px !important;
 }
-html[dir=ltr] .al-e-6 {
+html:not([dir]) .al-e-6, html[dir=""] .al-e-6, html[dir=ltr] .al-e-6 {
   --al-e: 6px !important;
 }
-html[dir=ltr] .al-extend-s-7 {
+html:not([dir]) .al-extend-s-7, html[dir=""] .al-extend-s-7, html[dir=ltr] .al-extend-s-7 {
   --al-extend-s: 7px !important;
 }
-html[dir=ltr] .al-extend-e-7 {
+html:not([dir]) .al-extend-e-7, html[dir=""] .al-extend-e-7, html[dir=ltr] .al-extend-e-7 {
   --al-extend-e: 7px !important;
 }
-html[dir=ltr] .al-s-7 {
+html:not([dir]) .al-s-7, html[dir=""] .al-s-7, html[dir=ltr] .al-s-7 {
   --al-s: 7px !important;
 }
-html[dir=ltr] .al-e-7 {
+html:not([dir]) .al-e-7, html[dir=""] .al-e-7, html[dir=ltr] .al-e-7 {
   --al-e: 7px !important;
 }
-html[dir=ltr] .al-extend-s-8 {
+html:not([dir]) .al-extend-s-8, html[dir=""] .al-extend-s-8, html[dir=ltr] .al-extend-s-8 {
   --al-extend-s: 8px !important;
 }
-html[dir=ltr] .al-extend-e-8 {
+html:not([dir]) .al-extend-e-8, html[dir=""] .al-extend-e-8, html[dir=ltr] .al-extend-e-8 {
   --al-extend-e: 8px !important;
 }
-html[dir=ltr] .al-s-8 {
+html:not([dir]) .al-s-8, html[dir=""] .al-s-8, html[dir=ltr] .al-s-8 {
   --al-s: 8px !important;
 }
-html[dir=ltr] .al-e-8 {
+html:not([dir]) .al-e-8, html[dir=""] .al-e-8, html[dir=ltr] .al-e-8 {
   --al-e: 8px !important;
 }
-html[dir=ltr] .al-extend-s-9 {
+html:not([dir]) .al-extend-s-9, html[dir=""] .al-extend-s-9, html[dir=ltr] .al-extend-s-9 {
   --al-extend-s: 9px !important;
 }
-html[dir=ltr] .al-extend-e-9 {
+html:not([dir]) .al-extend-e-9, html[dir=""] .al-extend-e-9, html[dir=ltr] .al-extend-e-9 {
   --al-extend-e: 9px !important;
 }
-html[dir=ltr] .al-s-9 {
+html:not([dir]) .al-s-9, html[dir=""] .al-s-9, html[dir=ltr] .al-s-9 {
   --al-s: 9px !important;
 }
-html[dir=ltr] .al-e-9 {
+html:not([dir]) .al-e-9, html[dir=""] .al-e-9, html[dir=ltr] .al-e-9 {
   --al-e: 9px !important;
 }
-html[dir=ltr] .al-extend-s-10 {
+html:not([dir]) .al-extend-s-10, html[dir=""] .al-extend-s-10, html[dir=ltr] .al-extend-s-10 {
   --al-extend-s: 10px !important;
 }
-html[dir=ltr] .al-extend-e-10 {
+html:not([dir]) .al-extend-e-10, html[dir=""] .al-extend-e-10, html[dir=ltr] .al-extend-e-10 {
   --al-extend-e: 10px !important;
 }
-html[dir=ltr] .al-s-10 {
+html:not([dir]) .al-s-10, html[dir=""] .al-s-10, html[dir=ltr] .al-s-10 {
   --al-s: 10px !important;
 }
-html[dir=ltr] .al-e-10 {
+html:not([dir]) .al-e-10, html[dir=""] .al-e-10, html[dir=ltr] .al-e-10 {
   --al-e: 10px !important;
 }
-html[dir=ltr] .al-extend-s-11 {
+html:not([dir]) .al-extend-s-11, html[dir=""] .al-extend-s-11, html[dir=ltr] .al-extend-s-11 {
   --al-extend-s: 11px !important;
 }
-html[dir=ltr] .al-extend-e-11 {
+html:not([dir]) .al-extend-e-11, html[dir=""] .al-extend-e-11, html[dir=ltr] .al-extend-e-11 {
   --al-extend-e: 11px !important;
 }
-html[dir=ltr] .al-s-11 {
+html:not([dir]) .al-s-11, html[dir=""] .al-s-11, html[dir=ltr] .al-s-11 {
   --al-s: 11px !important;
 }
-html[dir=ltr] .al-e-11 {
+html:not([dir]) .al-e-11, html[dir=""] .al-e-11, html[dir=ltr] .al-e-11 {
   --al-e: 11px !important;
 }
-html[dir=ltr] .al-extend-s-12 {
+html:not([dir]) .al-extend-s-12, html[dir=""] .al-extend-s-12, html[dir=ltr] .al-extend-s-12 {
   --al-extend-s: 12px !important;
 }
-html[dir=ltr] .al-extend-e-12 {
+html:not([dir]) .al-extend-e-12, html[dir=""] .al-extend-e-12, html[dir=ltr] .al-extend-e-12 {
   --al-extend-e: 12px !important;
 }
-html[dir=ltr] .al-s-12 {
+html:not([dir]) .al-s-12, html[dir=""] .al-s-12, html[dir=ltr] .al-s-12 {
   --al-s: 12px !important;
 }
-html[dir=ltr] .al-e-12 {
+html:not([dir]) .al-e-12, html[dir=""] .al-e-12, html[dir=ltr] .al-e-12 {
   --al-e: 12px !important;
 }
-html[dir=ltr] .al-extend-s-13 {
+html:not([dir]) .al-extend-s-13, html[dir=""] .al-extend-s-13, html[dir=ltr] .al-extend-s-13 {
   --al-extend-s: 13px !important;
 }
-html[dir=ltr] .al-extend-e-13 {
+html:not([dir]) .al-extend-e-13, html[dir=""] .al-extend-e-13, html[dir=ltr] .al-extend-e-13 {
   --al-extend-e: 13px !important;
 }
-html[dir=ltr] .al-s-13 {
+html:not([dir]) .al-s-13, html[dir=""] .al-s-13, html[dir=ltr] .al-s-13 {
   --al-s: 13px !important;
 }
-html[dir=ltr] .al-e-13 {
+html:not([dir]) .al-e-13, html[dir=""] .al-e-13, html[dir=ltr] .al-e-13 {
   --al-e: 13px !important;
 }
-html[dir=ltr] .al-extend-s-14 {
+html:not([dir]) .al-extend-s-14, html[dir=""] .al-extend-s-14, html[dir=ltr] .al-extend-s-14 {
   --al-extend-s: 14px !important;
 }
-html[dir=ltr] .al-extend-e-14 {
+html:not([dir]) .al-extend-e-14, html[dir=""] .al-extend-e-14, html[dir=ltr] .al-extend-e-14 {
   --al-extend-e: 14px !important;
 }
-html[dir=ltr] .al-s-14 {
+html:not([dir]) .al-s-14, html[dir=""] .al-s-14, html[dir=ltr] .al-s-14 {
   --al-s: 14px !important;
 }
-html[dir=ltr] .al-e-14 {
+html:not([dir]) .al-e-14, html[dir=""] .al-e-14, html[dir=ltr] .al-e-14 {
   --al-e: 14px !important;
 }
-html[dir=ltr] .al-extend-s-15 {
+html:not([dir]) .al-extend-s-15, html[dir=""] .al-extend-s-15, html[dir=ltr] .al-extend-s-15 {
   --al-extend-s: 15px !important;
 }
-html[dir=ltr] .al-extend-e-15 {
+html:not([dir]) .al-extend-e-15, html[dir=""] .al-extend-e-15, html[dir=ltr] .al-extend-e-15 {
   --al-extend-e: 15px !important;
 }
-html[dir=ltr] .al-s-15 {
+html:not([dir]) .al-s-15, html[dir=""] .al-s-15, html[dir=ltr] .al-s-15 {
   --al-s: 15px !important;
 }
-html[dir=ltr] .al-e-15 {
+html:not([dir]) .al-e-15, html[dir=""] .al-e-15, html[dir=ltr] .al-e-15 {
   --al-e: 15px !important;
 }
-html[dir=ltr] .al-extend-s-16 {
+html:not([dir]) .al-extend-s-16, html[dir=""] .al-extend-s-16, html[dir=ltr] .al-extend-s-16 {
   --al-extend-s: 16px !important;
 }
-html[dir=ltr] .al-extend-e-16 {
+html:not([dir]) .al-extend-e-16, html[dir=""] .al-extend-e-16, html[dir=ltr] .al-extend-e-16 {
   --al-extend-e: 16px !important;
 }
-html[dir=ltr] .al-s-16 {
+html:not([dir]) .al-s-16, html[dir=""] .al-s-16, html[dir=ltr] .al-s-16 {
   --al-s: 16px !important;
 }
-html[dir=ltr] .al-e-16 {
+html:not([dir]) .al-e-16, html[dir=""] .al-e-16, html[dir=ltr] .al-e-16 {
   --al-e: 16px !important;
 }
-html[dir=ltr] .al-extend-s-20 {
+html:not([dir]) .al-extend-s-20, html[dir=""] .al-extend-s-20, html[dir=ltr] .al-extend-s-20 {
   --al-extend-s: 20px !important;
 }
-html[dir=ltr] .al-extend-e-20 {
+html:not([dir]) .al-extend-e-20, html[dir=""] .al-extend-e-20, html[dir=ltr] .al-extend-e-20 {
   --al-extend-e: 20px !important;
 }
-html[dir=ltr] .al-s-20 {
+html:not([dir]) .al-s-20, html[dir=""] .al-s-20, html[dir=ltr] .al-s-20 {
   --al-s: 20px !important;
 }
-html[dir=ltr] .al-e-20 {
+html:not([dir]) .al-e-20, html[dir=""] .al-e-20, html[dir=ltr] .al-e-20 {
   --al-e: 20px !important;
 }
-html[dir=ltr] .al-extend-s-24 {
+html:not([dir]) .al-extend-s-24, html[dir=""] .al-extend-s-24, html[dir=ltr] .al-extend-s-24 {
   --al-extend-s: 24px !important;
 }
-html[dir=ltr] .al-extend-e-24 {
+html:not([dir]) .al-extend-e-24, html[dir=""] .al-extend-e-24, html[dir=ltr] .al-extend-e-24 {
   --al-extend-e: 24px !important;
 }
-html[dir=ltr] .al-s-24 {
+html:not([dir]) .al-s-24, html[dir=""] .al-s-24, html[dir=ltr] .al-s-24 {
   --al-s: 24px !important;
 }
-html[dir=ltr] .al-e-24 {
+html:not([dir]) .al-e-24, html[dir=""] .al-e-24, html[dir=ltr] .al-e-24 {
   --al-e: 24px !important;
 }
-html[dir=ltr] .al-extend-s-25 {
+html:not([dir]) .al-extend-s-25, html[dir=""] .al-extend-s-25, html[dir=ltr] .al-extend-s-25 {
   --al-extend-s: 25px !important;
 }
-html[dir=ltr] .al-extend-e-25 {
+html:not([dir]) .al-extend-e-25, html[dir=""] .al-extend-e-25, html[dir=ltr] .al-extend-e-25 {
   --al-extend-e: 25px !important;
 }
-html[dir=ltr] .al-s-25 {
+html:not([dir]) .al-s-25, html[dir=""] .al-s-25, html[dir=ltr] .al-s-25 {
   --al-s: 25px !important;
 }
-html[dir=ltr] .al-e-25 {
+html:not([dir]) .al-e-25, html[dir=""] .al-e-25, html[dir=ltr] .al-e-25 {
   --al-e: 25px !important;
 }
-html[dir=ltr] .al-extend-s-26 {
+html:not([dir]) .al-extend-s-26, html[dir=""] .al-extend-s-26, html[dir=ltr] .al-extend-s-26 {
   --al-extend-s: 26px !important;
 }
-html[dir=ltr] .al-extend-e-26 {
+html:not([dir]) .al-extend-e-26, html[dir=""] .al-extend-e-26, html[dir=ltr] .al-extend-e-26 {
   --al-extend-e: 26px !important;
 }
-html[dir=ltr] .al-s-26 {
+html:not([dir]) .al-s-26, html[dir=""] .al-s-26, html[dir=ltr] .al-s-26 {
   --al-s: 26px !important;
 }
-html[dir=ltr] .al-e-26 {
+html:not([dir]) .al-e-26, html[dir=""] .al-e-26, html[dir=ltr] .al-e-26 {
   --al-e: 26px !important;
 }
-html[dir=ltr] .al-extend-s-30 {
+html:not([dir]) .al-extend-s-30, html[dir=""] .al-extend-s-30, html[dir=ltr] .al-extend-s-30 {
   --al-extend-s: 30px !important;
 }
-html[dir=ltr] .al-extend-e-30 {
+html:not([dir]) .al-extend-e-30, html[dir=""] .al-extend-e-30, html[dir=ltr] .al-extend-e-30 {
   --al-extend-e: 30px !important;
 }
-html[dir=ltr] .al-s-30 {
+html:not([dir]) .al-s-30, html[dir=""] .al-s-30, html[dir=ltr] .al-s-30 {
   --al-s: 30px !important;
 }
-html[dir=ltr] .al-e-30 {
+html:not([dir]) .al-e-30, html[dir=""] .al-e-30, html[dir=ltr] .al-e-30 {
   --al-e: 30px !important;
 }
-html[dir=ltr] .al-extend-s-32 {
+html:not([dir]) .al-extend-s-32, html[dir=""] .al-extend-s-32, html[dir=ltr] .al-extend-s-32 {
   --al-extend-s: 32px !important;
 }
-html[dir=ltr] .al-extend-e-32 {
+html:not([dir]) .al-extend-e-32, html[dir=""] .al-extend-e-32, html[dir=ltr] .al-extend-e-32 {
   --al-extend-e: 32px !important;
 }
-html[dir=ltr] .al-s-32 {
+html:not([dir]) .al-s-32, html[dir=""] .al-s-32, html[dir=ltr] .al-s-32 {
   --al-s: 32px !important;
 }
-html[dir=ltr] .al-e-32 {
+html:not([dir]) .al-e-32, html[dir=""] .al-e-32, html[dir=ltr] .al-e-32 {
   --al-e: 32px !important;
 }
-html[dir=ltr] .al-extend-s-34 {
+html:not([dir]) .al-extend-s-34, html[dir=""] .al-extend-s-34, html[dir=ltr] .al-extend-s-34 {
   --al-extend-s: 34px !important;
 }
-html[dir=ltr] .al-extend-e-34 {
+html:not([dir]) .al-extend-e-34, html[dir=""] .al-extend-e-34, html[dir=ltr] .al-extend-e-34 {
   --al-extend-e: 34px !important;
 }
-html[dir=ltr] .al-s-34 {
+html:not([dir]) .al-s-34, html[dir=""] .al-s-34, html[dir=ltr] .al-s-34 {
   --al-s: 34px !important;
 }
-html[dir=ltr] .al-e-34 {
+html:not([dir]) .al-e-34, html[dir=""] .al-e-34, html[dir=ltr] .al-e-34 {
   --al-e: 34px !important;
 }
-html[dir=ltr] .al-extend-s-35 {
+html:not([dir]) .al-extend-s-35, html[dir=""] .al-extend-s-35, html[dir=ltr] .al-extend-s-35 {
   --al-extend-s: 35px !important;
 }
-html[dir=ltr] .al-extend-e-35 {
+html:not([dir]) .al-extend-e-35, html[dir=""] .al-extend-e-35, html[dir=ltr] .al-extend-e-35 {
   --al-extend-e: 35px !important;
 }
-html[dir=ltr] .al-s-35 {
+html:not([dir]) .al-s-35, html[dir=""] .al-s-35, html[dir=ltr] .al-s-35 {
   --al-s: 35px !important;
 }
-html[dir=ltr] .al-e-35 {
+html:not([dir]) .al-e-35, html[dir=""] .al-e-35, html[dir=ltr] .al-e-35 {
   --al-e: 35px !important;
 }
-html[dir=ltr] .al-extend-s-36 {
+html:not([dir]) .al-extend-s-36, html[dir=""] .al-extend-s-36, html[dir=ltr] .al-extend-s-36 {
   --al-extend-s: 36px !important;
 }
-html[dir=ltr] .al-extend-e-36 {
+html:not([dir]) .al-extend-e-36, html[dir=""] .al-extend-e-36, html[dir=ltr] .al-extend-e-36 {
   --al-extend-e: 36px !important;
 }
-html[dir=ltr] .al-s-36 {
+html:not([dir]) .al-s-36, html[dir=""] .al-s-36, html[dir=ltr] .al-s-36 {
   --al-s: 36px !important;
 }
-html[dir=ltr] .al-e-36 {
+html:not([dir]) .al-e-36, html[dir=""] .al-e-36, html[dir=ltr] .al-e-36 {
   --al-e: 36px !important;
 }
-html[dir=ltr] .al-extend-s-40 {
+html:not([dir]) .al-extend-s-40, html[dir=""] .al-extend-s-40, html[dir=ltr] .al-extend-s-40 {
   --al-extend-s: 40px !important;
 }
-html[dir=ltr] .al-extend-e-40 {
+html:not([dir]) .al-extend-e-40, html[dir=""] .al-extend-e-40, html[dir=ltr] .al-extend-e-40 {
   --al-extend-e: 40px !important;
 }
-html[dir=ltr] .al-s-40 {
+html:not([dir]) .al-s-40, html[dir=""] .al-s-40, html[dir=ltr] .al-s-40 {
   --al-s: 40px !important;
 }
-html[dir=ltr] .al-e-40 {
+html:not([dir]) .al-e-40, html[dir=""] .al-e-40, html[dir=ltr] .al-e-40 {
   --al-e: 40px !important;
 }
-html[dir=ltr] .al-extend-s-45 {
+html:not([dir]) .al-extend-s-45, html[dir=""] .al-extend-s-45, html[dir=ltr] .al-extend-s-45 {
   --al-extend-s: 45px !important;
 }
-html[dir=ltr] .al-extend-e-45 {
+html:not([dir]) .al-extend-e-45, html[dir=""] .al-extend-e-45, html[dir=ltr] .al-extend-e-45 {
   --al-extend-e: 45px !important;
 }
-html[dir=ltr] .al-s-45 {
+html:not([dir]) .al-s-45, html[dir=""] .al-s-45, html[dir=ltr] .al-s-45 {
   --al-s: 45px !important;
 }
-html[dir=ltr] .al-e-45 {
+html:not([dir]) .al-e-45, html[dir=""] .al-e-45, html[dir=ltr] .al-e-45 {
   --al-e: 45px !important;
 }
-html[dir=ltr] .al-extend-s-48 {
+html:not([dir]) .al-extend-s-48, html[dir=""] .al-extend-s-48, html[dir=ltr] .al-extend-s-48 {
   --al-extend-s: 48px !important;
 }
-html[dir=ltr] .al-extend-e-48 {
+html:not([dir]) .al-extend-e-48, html[dir=""] .al-extend-e-48, html[dir=ltr] .al-extend-e-48 {
   --al-extend-e: 48px !important;
 }
-html[dir=ltr] .al-s-48 {
+html:not([dir]) .al-s-48, html[dir=""] .al-s-48, html[dir=ltr] .al-s-48 {
   --al-s: 48px !important;
 }
-html[dir=ltr] .al-e-48 {
+html:not([dir]) .al-e-48, html[dir=""] .al-e-48, html[dir=ltr] .al-e-48 {
   --al-e: 48px !important;
 }
-html[dir=ltr] .al-extend-s-50 {
+html:not([dir]) .al-extend-s-50, html[dir=""] .al-extend-s-50, html[dir=ltr] .al-extend-s-50 {
   --al-extend-s: 50px !important;
 }
-html[dir=ltr] .al-extend-e-50 {
+html:not([dir]) .al-extend-e-50, html[dir=""] .al-extend-e-50, html[dir=ltr] .al-extend-e-50 {
   --al-extend-e: 50px !important;
 }
-html[dir=ltr] .al-s-50 {
+html:not([dir]) .al-s-50, html[dir=""] .al-s-50, html[dir=ltr] .al-s-50 {
   --al-s: 50px !important;
 }
-html[dir=ltr] .al-e-50 {
+html:not([dir]) .al-e-50, html[dir=""] .al-e-50, html[dir=ltr] .al-e-50 {
   --al-e: 50px !important;
 }
-html[dir=ltr] .al-extend-s-55 {
+html:not([dir]) .al-extend-s-55, html[dir=""] .al-extend-s-55, html[dir=ltr] .al-extend-s-55 {
   --al-extend-s: 55px !important;
 }
-html[dir=ltr] .al-extend-e-55 {
+html:not([dir]) .al-extend-e-55, html[dir=""] .al-extend-e-55, html[dir=ltr] .al-extend-e-55 {
   --al-extend-e: 55px !important;
 }
-html[dir=ltr] .al-s-55 {
+html:not([dir]) .al-s-55, html[dir=""] .al-s-55, html[dir=ltr] .al-s-55 {
   --al-s: 55px !important;
 }
-html[dir=ltr] .al-e-55 {
+html:not([dir]) .al-e-55, html[dir=""] .al-e-55, html[dir=ltr] .al-e-55 {
   --al-e: 55px !important;
 }
-html[dir=ltr] .al-extend-s-60 {
+html:not([dir]) .al-extend-s-60, html[dir=""] .al-extend-s-60, html[dir=ltr] .al-extend-s-60 {
   --al-extend-s: 60px !important;
 }
-html[dir=ltr] .al-extend-e-60 {
+html:not([dir]) .al-extend-e-60, html[dir=""] .al-extend-e-60, html[dir=ltr] .al-extend-e-60 {
   --al-extend-e: 60px !important;
 }
-html[dir=ltr] .al-s-60 {
+html:not([dir]) .al-s-60, html[dir=""] .al-s-60, html[dir=ltr] .al-s-60 {
   --al-s: 60px !important;
 }
-html[dir=ltr] .al-e-60 {
+html:not([dir]) .al-e-60, html[dir=""] .al-e-60, html[dir=ltr] .al-e-60 {
   --al-e: 60px !important;
 }
-html[dir=ltr] .al-extend-s-64 {
+html:not([dir]) .al-extend-s-64, html[dir=""] .al-extend-s-64, html[dir=ltr] .al-extend-s-64 {
   --al-extend-s: 64px !important;
 }
-html[dir=ltr] .al-extend-e-64 {
+html:not([dir]) .al-extend-e-64, html[dir=""] .al-extend-e-64, html[dir=ltr] .al-extend-e-64 {
   --al-extend-e: 64px !important;
 }
-html[dir=ltr] .al-s-64 {
+html:not([dir]) .al-s-64, html[dir=""] .al-s-64, html[dir=ltr] .al-s-64 {
   --al-s: 64px !important;
 }
-html[dir=ltr] .al-e-64 {
+html:not([dir]) .al-e-64, html[dir=""] .al-e-64, html[dir=ltr] .al-e-64 {
   --al-e: 64px !important;
 }
-html[dir=ltr] .al-extend-s-65 {
+html:not([dir]) .al-extend-s-65, html[dir=""] .al-extend-s-65, html[dir=ltr] .al-extend-s-65 {
   --al-extend-s: 65px !important;
 }
-html[dir=ltr] .al-extend-e-65 {
+html:not([dir]) .al-extend-e-65, html[dir=""] .al-extend-e-65, html[dir=ltr] .al-extend-e-65 {
   --al-extend-e: 65px !important;
 }
-html[dir=ltr] .al-s-65 {
+html:not([dir]) .al-s-65, html[dir=""] .al-s-65, html[dir=ltr] .al-s-65 {
   --al-s: 65px !important;
 }
-html[dir=ltr] .al-e-65 {
+html:not([dir]) .al-e-65, html[dir=""] .al-e-65, html[dir=ltr] .al-e-65 {
   --al-e: 65px !important;
 }
-html[dir=ltr] .al-extend-s-70 {
+html:not([dir]) .al-extend-s-70, html[dir=""] .al-extend-s-70, html[dir=ltr] .al-extend-s-70 {
   --al-extend-s: 70px !important;
 }
-html[dir=ltr] .al-extend-e-70 {
+html:not([dir]) .al-extend-e-70, html[dir=""] .al-extend-e-70, html[dir=ltr] .al-extend-e-70 {
   --al-extend-e: 70px !important;
 }
-html[dir=ltr] .al-s-70 {
+html:not([dir]) .al-s-70, html[dir=""] .al-s-70, html[dir=ltr] .al-s-70 {
   --al-s: 70px !important;
 }
-html[dir=ltr] .al-e-70 {
+html:not([dir]) .al-e-70, html[dir=""] .al-e-70, html[dir=ltr] .al-e-70 {
   --al-e: 70px !important;
 }
-html[dir=ltr] .al-extend-s-75 {
+html:not([dir]) .al-extend-s-75, html[dir=""] .al-extend-s-75, html[dir=ltr] .al-extend-s-75 {
   --al-extend-s: 75px !important;
 }
-html[dir=ltr] .al-extend-e-75 {
+html:not([dir]) .al-extend-e-75, html[dir=""] .al-extend-e-75, html[dir=ltr] .al-extend-e-75 {
   --al-extend-e: 75px !important;
 }
-html[dir=ltr] .al-s-75 {
+html:not([dir]) .al-s-75, html[dir=""] .al-s-75, html[dir=ltr] .al-s-75 {
   --al-s: 75px !important;
 }
-html[dir=ltr] .al-e-75 {
+html:not([dir]) .al-e-75, html[dir=""] .al-e-75, html[dir=ltr] .al-e-75 {
   --al-e: 75px !important;
 }
-html[dir=ltr] .al-extend-s-80 {
+html:not([dir]) .al-extend-s-80, html[dir=""] .al-extend-s-80, html[dir=ltr] .al-extend-s-80 {
   --al-extend-s: 80px !important;
 }
-html[dir=ltr] .al-extend-e-80 {
+html:not([dir]) .al-extend-e-80, html[dir=""] .al-extend-e-80, html[dir=ltr] .al-extend-e-80 {
   --al-extend-e: 80px !important;
 }
-html[dir=ltr] .al-s-80 {
+html:not([dir]) .al-s-80, html[dir=""] .al-s-80, html[dir=ltr] .al-s-80 {
   --al-s: 80px !important;
 }
-html[dir=ltr] .al-e-80 {
+html:not([dir]) .al-e-80, html[dir=""] .al-e-80, html[dir=ltr] .al-e-80 {
   --al-e: 80px !important;
 }
-html[dir=ltr] .al-extend-s-85 {
+html:not([dir]) .al-extend-s-85, html[dir=""] .al-extend-s-85, html[dir=ltr] .al-extend-s-85 {
   --al-extend-s: 85px !important;
 }
-html[dir=ltr] .al-extend-e-85 {
+html:not([dir]) .al-extend-e-85, html[dir=""] .al-extend-e-85, html[dir=ltr] .al-extend-e-85 {
   --al-extend-e: 85px !important;
 }
-html[dir=ltr] .al-s-85 {
+html:not([dir]) .al-s-85, html[dir=""] .al-s-85, html[dir=ltr] .al-s-85 {
   --al-s: 85px !important;
 }
-html[dir=ltr] .al-e-85 {
+html:not([dir]) .al-e-85, html[dir=""] .al-e-85, html[dir=ltr] .al-e-85 {
   --al-e: 85px !important;
 }
-html[dir=ltr] .al-extend-s-90 {
+html:not([dir]) .al-extend-s-90, html[dir=""] .al-extend-s-90, html[dir=ltr] .al-extend-s-90 {
   --al-extend-s: 90px !important;
 }
-html[dir=ltr] .al-extend-e-90 {
+html:not([dir]) .al-extend-e-90, html[dir=""] .al-extend-e-90, html[dir=ltr] .al-extend-e-90 {
   --al-extend-e: 90px !important;
 }
-html[dir=ltr] .al-s-90 {
+html:not([dir]) .al-s-90, html[dir=""] .al-s-90, html[dir=ltr] .al-s-90 {
   --al-s: 90px !important;
 }
-html[dir=ltr] .al-e-90 {
+html:not([dir]) .al-e-90, html[dir=""] .al-e-90, html[dir=ltr] .al-e-90 {
   --al-e: 90px !important;
 }
-html[dir=ltr] .al-extend-s-95 {
+html:not([dir]) .al-extend-s-95, html[dir=""] .al-extend-s-95, html[dir=ltr] .al-extend-s-95 {
   --al-extend-s: 95px !important;
 }
-html[dir=ltr] .al-extend-e-95 {
+html:not([dir]) .al-extend-e-95, html[dir=""] .al-extend-e-95, html[dir=ltr] .al-extend-e-95 {
   --al-extend-e: 95px !important;
 }
-html[dir=ltr] .al-s-95 {
+html:not([dir]) .al-s-95, html[dir=""] .al-s-95, html[dir=ltr] .al-s-95 {
   --al-s: 95px !important;
 }
-html[dir=ltr] .al-e-95 {
+html:not([dir]) .al-e-95, html[dir=""] .al-e-95, html[dir=ltr] .al-e-95 {
   --al-e: 95px !important;
 }
-html[dir=ltr] .al-extend-s-96 {
+html:not([dir]) .al-extend-s-96, html[dir=""] .al-extend-s-96, html[dir=ltr] .al-extend-s-96 {
   --al-extend-s: 96px !important;
 }
-html[dir=ltr] .al-extend-e-96 {
+html:not([dir]) .al-extend-e-96, html[dir=""] .al-extend-e-96, html[dir=ltr] .al-extend-e-96 {
   --al-extend-e: 96px !important;
 }
-html[dir=ltr] .al-s-96 {
+html:not([dir]) .al-s-96, html[dir=""] .al-s-96, html[dir=ltr] .al-s-96 {
   --al-s: 96px !important;
 }
-html[dir=ltr] .al-e-96 {
+html:not([dir]) .al-e-96, html[dir=""] .al-e-96, html[dir=ltr] .al-e-96 {
   --al-e: 96px !important;
 }
-html[dir=ltr] .al-extend-s-100 {
+html:not([dir]) .al-extend-s-100, html[dir=""] .al-extend-s-100, html[dir=ltr] .al-extend-s-100 {
   --al-extend-s: 100px !important;
 }
-html[dir=ltr] .al-extend-e-100 {
+html:not([dir]) .al-extend-e-100, html[dir=""] .al-extend-e-100, html[dir=ltr] .al-extend-e-100 {
   --al-extend-e: 100px !important;
 }
-html[dir=ltr] .al-s-100 {
+html:not([dir]) .al-s-100, html[dir=""] .al-s-100, html[dir=ltr] .al-s-100 {
   --al-s: 100px !important;
 }
-html[dir=ltr] .al-e-100 {
+html:not([dir]) .al-e-100, html[dir=""] .al-e-100, html[dir=ltr] .al-e-100 {
   --al-e: 100px !important;
 }
-html[dir=ltr] .al-extend-s-120 {
+html:not([dir]) .al-extend-s-120, html[dir=""] .al-extend-s-120, html[dir=ltr] .al-extend-s-120 {
   --al-extend-s: 120px !important;
 }
-html[dir=ltr] .al-extend-e-120 {
+html:not([dir]) .al-extend-e-120, html[dir=""] .al-extend-e-120, html[dir=ltr] .al-extend-e-120 {
   --al-extend-e: 120px !important;
 }
-html[dir=ltr] .al-s-120 {
+html:not([dir]) .al-s-120, html[dir=""] .al-s-120, html[dir=ltr] .al-s-120 {
   --al-s: 120px !important;
 }
-html[dir=ltr] .al-e-120 {
+html:not([dir]) .al-e-120, html[dir=""] .al-e-120, html[dir=ltr] .al-e-120 {
   --al-e: 120px !important;
 }
-html[dir=ltr] .al-extend-s-150 {
+html:not([dir]) .al-extend-s-150, html[dir=""] .al-extend-s-150, html[dir=ltr] .al-extend-s-150 {
   --al-extend-s: 150px !important;
 }
-html[dir=ltr] .al-extend-e-150 {
+html:not([dir]) .al-extend-e-150, html[dir=""] .al-extend-e-150, html[dir=ltr] .al-extend-e-150 {
   --al-extend-e: 150px !important;
 }
-html[dir=ltr] .al-s-150 {
+html:not([dir]) .al-s-150, html[dir=""] .al-s-150, html[dir=ltr] .al-s-150 {
   --al-s: 150px !important;
 }
-html[dir=ltr] .al-e-150 {
+html:not([dir]) .al-e-150, html[dir=""] .al-e-150, html[dir=ltr] .al-e-150 {
   --al-e: 150px !important;
 }
-html[dir=ltr] .al-extend-s-200 {
+html:not([dir]) .al-extend-s-200, html[dir=""] .al-extend-s-200, html[dir=ltr] .al-extend-s-200 {
   --al-extend-s: 200px !important;
 }
-html[dir=ltr] .al-extend-e-200 {
+html:not([dir]) .al-extend-e-200, html[dir=""] .al-extend-e-200, html[dir=ltr] .al-extend-e-200 {
   --al-extend-e: 200px !important;
 }
-html[dir=ltr] .al-s-200 {
+html:not([dir]) .al-s-200, html[dir=""] .al-s-200, html[dir=ltr] .al-s-200 {
   --al-s: 200px !important;
 }
-html[dir=ltr] .al-e-200 {
+html:not([dir]) .al-e-200, html[dir=""] .al-e-200, html[dir=ltr] .al-e-200 {
   --al-e: 200px !important;
 }
-html[dir=ltr] .al-extend-s-250 {
+html:not([dir]) .al-extend-s-250, html[dir=""] .al-extend-s-250, html[dir=ltr] .al-extend-s-250 {
   --al-extend-s: 250px !important;
 }
-html[dir=ltr] .al-extend-e-250 {
+html:not([dir]) .al-extend-e-250, html[dir=""] .al-extend-e-250, html[dir=ltr] .al-extend-e-250 {
   --al-extend-e: 250px !important;
 }
-html[dir=ltr] .al-s-250 {
+html:not([dir]) .al-s-250, html[dir=""] .al-s-250, html[dir=ltr] .al-s-250 {
   --al-s: 250px !important;
 }
-html[dir=ltr] .al-e-250 {
+html:not([dir]) .al-e-250, html[dir=""] .al-e-250, html[dir=ltr] .al-e-250 {
   --al-e: 250px !important;
 }
-html[dir=ltr] .al-center-s-0 {
+html:not([dir]) .al-center-s-0, html[dir=""] .al-center-s-0, html[dir=ltr] .al-center-s-0 {
   --al-center-s: 0% !important;
 }
-html[dir=ltr] .al-center-e-0 {
+html:not([dir]) .al-center-e-0, html[dir=""] .al-center-e-0, html[dir=ltr] .al-center-e-0 {
   --al-center-e: 0% !important;
 }
-html[dir=ltr] .al-center-s-10 {
+html:not([dir]) .al-center-s-10, html[dir=""] .al-center-s-10, html[dir=ltr] .al-center-s-10 {
   --al-center-s: 10% !important;
 }
-html[dir=ltr] .al-center-e-10 {
+html:not([dir]) .al-center-e-10, html[dir=""] .al-center-e-10, html[dir=ltr] .al-center-e-10 {
   --al-center-e: 10% !important;
 }
-html[dir=ltr] .al-center-s-25 {
+html:not([dir]) .al-center-s-25, html[dir=""] .al-center-s-25, html[dir=ltr] .al-center-s-25 {
   --al-center-s: 25% !important;
 }
-html[dir=ltr] .al-center-e-25 {
+html:not([dir]) .al-center-e-25, html[dir=""] .al-center-e-25, html[dir=ltr] .al-center-e-25 {
   --al-center-e: 25% !important;
 }
-html[dir=ltr] .al-center-s-50 {
+html:not([dir]) .al-center-s-50, html[dir=""] .al-center-s-50, html[dir=ltr] .al-center-s-50 {
   --al-center-s: 50% !important;
 }
-html[dir=ltr] .al-center-e-50 {
+html:not([dir]) .al-center-e-50, html[dir=""] .al-center-e-50, html[dir=ltr] .al-center-e-50 {
   --al-center-e: 50% !important;
 }
-html[dir=ltr] .al-center-s-75 {
+html:not([dir]) .al-center-s-75, html[dir=""] .al-center-s-75, html[dir=ltr] .al-center-s-75 {
   --al-center-s: 75% !important;
 }
-html[dir=ltr] .al-center-e-75 {
+html:not([dir]) .al-center-e-75, html[dir=""] .al-center-e-75, html[dir=ltr] .al-center-e-75 {
   --al-center-e: 75% !important;
 }
-html[dir=ltr] .al-center-s-90 {
+html:not([dir]) .al-center-s-90, html[dir=""] .al-center-s-90, html[dir=ltr] .al-center-s-90 {
   --al-center-s: 90% !important;
 }
-html[dir=ltr] .al-center-e-90 {
+html:not([dir]) .al-center-e-90, html[dir=""] .al-center-e-90, html[dir=ltr] .al-center-e-90 {
   --al-center-e: 90% !important;
 }
-html[dir=ltr] .al-center-s-100 {
+html:not([dir]) .al-center-s-100, html[dir=""] .al-center-s-100, html[dir=ltr] .al-center-s-100 {
   --al-center-s: 100% !important;
 }
-html[dir=ltr] .al-center-e-100 {
+html:not([dir]) .al-center-e-100, html[dir=""] .al-center-e-100, html[dir=ltr] .al-center-e-100 {
   --al-center-e: 100% !important;
 }
 html[dir=rtl] .al-e-clip-y {

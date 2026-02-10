@@ -140,7 +140,7 @@ $outline-opacity: ( 5: 0.05, 10: 0.10, 25: 0.25, 50: 0.50, 75: 0.75);
 
 /* ===== Border Radius RTL & LTR ===== */
 html{
-    &[dir=ltr]{
+    &:not([dir]), &[dir=""], &[dir=ltr]{
         .al{
             &-rounded{    
                 @each $key, $value in $radius-size {

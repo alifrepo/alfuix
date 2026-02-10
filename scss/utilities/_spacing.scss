@@ -86,7 +86,7 @@ $spacing: (
 
 /* ===== Spacing RTL & LTR ===== */
 html{
-    &[dir=ltr]{
+    &:not([dir]), &[dir=""], &[dir=ltr]{
         .al{
             @each $key, $value in $spacing {
                 // Padding
@@ -159,7 +159,7 @@ html{
 
     /* ===== Spacing RTL & LTR ===== */
     html{
-        &[dir=ltr]{
+        &:not([dir]), &[dir=""], &[dir=ltr]{
             .al{
                 &-ms-xxl-0{
                   margin-left: 0px !important;
@@ -194,7 +194,7 @@ html{
 
     /* ===== Spacing RTL & LTR ===== */
     html{
-        &[dir=ltr]{
+        &:not([dir]), &[dir=""], &[dir=ltr]{
             .al{
                 &-ms-xl-0{
                   margin-left: 0px !important;
@@ -229,7 +229,7 @@ html{
 
     /* ===== Spacing RTL & LTR ===== */
     html{
-        &[dir=ltr]{
+        &:not([dir]), &[dir=""], &[dir=ltr]{
             .al{
                 &-ms-lg-0{
                   margin-left: 0px !important;
@@ -264,7 +264,7 @@ html{
 
     /* ===== Spacing RTL & LTR ===== */
     html{
-        &[dir=ltr]{
+        &:not([dir]), &[dir=""], &[dir=ltr]{
             .al{
                 &-ms-md-0{
                   margin-left: 0px !important;
@@ -299,7 +299,7 @@ html{
 
     /* ===== Spacing RTL & LTR ===== */
     html{
-        &[dir=ltr]{
+        &:not([dir]), &[dir=""], &[dir=ltr]{
             .al{
                 &-ms-sm-0{
                   margin-left: 0px !important;
