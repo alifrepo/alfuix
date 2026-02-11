@@ -1,5 +1,5 @@
 /*!
- * alfuix v1.0.13 (https://alfuix.com/)
+ * alfuix v1.0.14 (https://alfuix.com/)
  * Copyright 2026 - The Alfuix Authors
  * Licensed under MIT https://github.com/alifrepo/alfuix/blob/main/LICENSE
  */
@@ -9516,523 +9516,523 @@ html[dir=rtl] .al-center-e-100 {
 /*========================
   RTL / LTR directional utilities
 =========================*/
-html[dir=ltr]:not([dir]) .al-start-0, html[dir=ltr][dir=""] .al-start-0, html[dir=ltr][dir=ltr] .al-start-0 {
+html:not([dir]) .al-start-0, html[dir=""] .al-start-0, html[dir=ltr] .al-start-0 {
   left: 0px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-0, html[dir=ltr][dir=""] .al-start-n-0, html[dir=ltr][dir=ltr] .al-start-n-0 {
+html:not([dir]) .al-start-n-0, html[dir=""] .al-start-n-0, html[dir=ltr] .al-start-n-0 {
   left: -0px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-0, html[dir=ltr][dir=""] .al-end-0, html[dir=ltr][dir=ltr] .al-end-0 {
+html:not([dir]) .al-end-0, html[dir=""] .al-end-0, html[dir=ltr] .al-end-0 {
   right: 0px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-0, html[dir=ltr][dir=""] .al-end-n-0, html[dir=ltr][dir=ltr] .al-end-n-0 {
+html:not([dir]) .al-end-n-0, html[dir=""] .al-end-n-0, html[dir=ltr] .al-end-n-0 {
   right: -0px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-1, html[dir=ltr][dir=""] .al-start-1, html[dir=ltr][dir=ltr] .al-start-1 {
+html:not([dir]) .al-start-1, html[dir=""] .al-start-1, html[dir=ltr] .al-start-1 {
   left: 1px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-1, html[dir=ltr][dir=""] .al-start-n-1, html[dir=ltr][dir=ltr] .al-start-n-1 {
+html:not([dir]) .al-start-n-1, html[dir=""] .al-start-n-1, html[dir=ltr] .al-start-n-1 {
   left: -1px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-1, html[dir=ltr][dir=""] .al-end-1, html[dir=ltr][dir=ltr] .al-end-1 {
+html:not([dir]) .al-end-1, html[dir=""] .al-end-1, html[dir=ltr] .al-end-1 {
   right: 1px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-1, html[dir=ltr][dir=""] .al-end-n-1, html[dir=ltr][dir=ltr] .al-end-n-1 {
+html:not([dir]) .al-end-n-1, html[dir=""] .al-end-n-1, html[dir=ltr] .al-end-n-1 {
   right: -1px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-2, html[dir=ltr][dir=""] .al-start-2, html[dir=ltr][dir=ltr] .al-start-2 {
+html:not([dir]) .al-start-2, html[dir=""] .al-start-2, html[dir=ltr] .al-start-2 {
   left: 2px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-2, html[dir=ltr][dir=""] .al-start-n-2, html[dir=ltr][dir=ltr] .al-start-n-2 {
+html:not([dir]) .al-start-n-2, html[dir=""] .al-start-n-2, html[dir=ltr] .al-start-n-2 {
   left: -2px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-2, html[dir=ltr][dir=""] .al-end-2, html[dir=ltr][dir=ltr] .al-end-2 {
+html:not([dir]) .al-end-2, html[dir=""] .al-end-2, html[dir=ltr] .al-end-2 {
   right: 2px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-2, html[dir=ltr][dir=""] .al-end-n-2, html[dir=ltr][dir=ltr] .al-end-n-2 {
+html:not([dir]) .al-end-n-2, html[dir=""] .al-end-n-2, html[dir=ltr] .al-end-n-2 {
   right: -2px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-3, html[dir=ltr][dir=""] .al-start-3, html[dir=ltr][dir=ltr] .al-start-3 {
+html:not([dir]) .al-start-3, html[dir=""] .al-start-3, html[dir=ltr] .al-start-3 {
   left: 3px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-3, html[dir=ltr][dir=""] .al-start-n-3, html[dir=ltr][dir=ltr] .al-start-n-3 {
+html:not([dir]) .al-start-n-3, html[dir=""] .al-start-n-3, html[dir=ltr] .al-start-n-3 {
   left: -3px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-3, html[dir=ltr][dir=""] .al-end-3, html[dir=ltr][dir=ltr] .al-end-3 {
+html:not([dir]) .al-end-3, html[dir=""] .al-end-3, html[dir=ltr] .al-end-3 {
   right: 3px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-3, html[dir=ltr][dir=""] .al-end-n-3, html[dir=ltr][dir=ltr] .al-end-n-3 {
+html:not([dir]) .al-end-n-3, html[dir=""] .al-end-n-3, html[dir=ltr] .al-end-n-3 {
   right: -3px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-4, html[dir=ltr][dir=""] .al-start-4, html[dir=ltr][dir=ltr] .al-start-4 {
+html:not([dir]) .al-start-4, html[dir=""] .al-start-4, html[dir=ltr] .al-start-4 {
   left: 4px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-4, html[dir=ltr][dir=""] .al-start-n-4, html[dir=ltr][dir=ltr] .al-start-n-4 {
+html:not([dir]) .al-start-n-4, html[dir=""] .al-start-n-4, html[dir=ltr] .al-start-n-4 {
   left: -4px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-4, html[dir=ltr][dir=""] .al-end-4, html[dir=ltr][dir=ltr] .al-end-4 {
+html:not([dir]) .al-end-4, html[dir=""] .al-end-4, html[dir=ltr] .al-end-4 {
   right: 4px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-4, html[dir=ltr][dir=""] .al-end-n-4, html[dir=ltr][dir=ltr] .al-end-n-4 {
+html:not([dir]) .al-end-n-4, html[dir=""] .al-end-n-4, html[dir=ltr] .al-end-n-4 {
   right: -4px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-5, html[dir=ltr][dir=""] .al-start-5, html[dir=ltr][dir=ltr] .al-start-5 {
+html:not([dir]) .al-start-5, html[dir=""] .al-start-5, html[dir=ltr] .al-start-5 {
   left: 5px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-5, html[dir=ltr][dir=""] .al-start-n-5, html[dir=ltr][dir=ltr] .al-start-n-5 {
+html:not([dir]) .al-start-n-5, html[dir=""] .al-start-n-5, html[dir=ltr] .al-start-n-5 {
   left: -5px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-5, html[dir=ltr][dir=""] .al-end-5, html[dir=ltr][dir=ltr] .al-end-5 {
+html:not([dir]) .al-end-5, html[dir=""] .al-end-5, html[dir=ltr] .al-end-5 {
   right: 5px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-5, html[dir=ltr][dir=""] .al-end-n-5, html[dir=ltr][dir=ltr] .al-end-n-5 {
+html:not([dir]) .al-end-n-5, html[dir=""] .al-end-n-5, html[dir=ltr] .al-end-n-5 {
   right: -5px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-6, html[dir=ltr][dir=""] .al-start-6, html[dir=ltr][dir=ltr] .al-start-6 {
+html:not([dir]) .al-start-6, html[dir=""] .al-start-6, html[dir=ltr] .al-start-6 {
   left: 6px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-6, html[dir=ltr][dir=""] .al-start-n-6, html[dir=ltr][dir=ltr] .al-start-n-6 {
+html:not([dir]) .al-start-n-6, html[dir=""] .al-start-n-6, html[dir=ltr] .al-start-n-6 {
   left: -6px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-6, html[dir=ltr][dir=""] .al-end-6, html[dir=ltr][dir=ltr] .al-end-6 {
+html:not([dir]) .al-end-6, html[dir=""] .al-end-6, html[dir=ltr] .al-end-6 {
   right: 6px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-6, html[dir=ltr][dir=""] .al-end-n-6, html[dir=ltr][dir=ltr] .al-end-n-6 {
+html:not([dir]) .al-end-n-6, html[dir=""] .al-end-n-6, html[dir=ltr] .al-end-n-6 {
   right: -6px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-7, html[dir=ltr][dir=""] .al-start-7, html[dir=ltr][dir=ltr] .al-start-7 {
+html:not([dir]) .al-start-7, html[dir=""] .al-start-7, html[dir=ltr] .al-start-7 {
   left: 7px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-7, html[dir=ltr][dir=""] .al-start-n-7, html[dir=ltr][dir=ltr] .al-start-n-7 {
+html:not([dir]) .al-start-n-7, html[dir=""] .al-start-n-7, html[dir=ltr] .al-start-n-7 {
   left: -7px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-7, html[dir=ltr][dir=""] .al-end-7, html[dir=ltr][dir=ltr] .al-end-7 {
+html:not([dir]) .al-end-7, html[dir=""] .al-end-7, html[dir=ltr] .al-end-7 {
   right: 7px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-7, html[dir=ltr][dir=""] .al-end-n-7, html[dir=ltr][dir=ltr] .al-end-n-7 {
+html:not([dir]) .al-end-n-7, html[dir=""] .al-end-n-7, html[dir=ltr] .al-end-n-7 {
   right: -7px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-8, html[dir=ltr][dir=""] .al-start-8, html[dir=ltr][dir=ltr] .al-start-8 {
+html:not([dir]) .al-start-8, html[dir=""] .al-start-8, html[dir=ltr] .al-start-8 {
   left: 8px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-8, html[dir=ltr][dir=""] .al-start-n-8, html[dir=ltr][dir=ltr] .al-start-n-8 {
+html:not([dir]) .al-start-n-8, html[dir=""] .al-start-n-8, html[dir=ltr] .al-start-n-8 {
   left: -8px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-8, html[dir=ltr][dir=""] .al-end-8, html[dir=ltr][dir=ltr] .al-end-8 {
+html:not([dir]) .al-end-8, html[dir=""] .al-end-8, html[dir=ltr] .al-end-8 {
   right: 8px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-8, html[dir=ltr][dir=""] .al-end-n-8, html[dir=ltr][dir=ltr] .al-end-n-8 {
+html:not([dir]) .al-end-n-8, html[dir=""] .al-end-n-8, html[dir=ltr] .al-end-n-8 {
   right: -8px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-9, html[dir=ltr][dir=""] .al-start-9, html[dir=ltr][dir=ltr] .al-start-9 {
+html:not([dir]) .al-start-9, html[dir=""] .al-start-9, html[dir=ltr] .al-start-9 {
   left: 9px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-9, html[dir=ltr][dir=""] .al-start-n-9, html[dir=ltr][dir=ltr] .al-start-n-9 {
+html:not([dir]) .al-start-n-9, html[dir=""] .al-start-n-9, html[dir=ltr] .al-start-n-9 {
   left: -9px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-9, html[dir=ltr][dir=""] .al-end-9, html[dir=ltr][dir=ltr] .al-end-9 {
+html:not([dir]) .al-end-9, html[dir=""] .al-end-9, html[dir=ltr] .al-end-9 {
   right: 9px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-9, html[dir=ltr][dir=""] .al-end-n-9, html[dir=ltr][dir=ltr] .al-end-n-9 {
+html:not([dir]) .al-end-n-9, html[dir=""] .al-end-n-9, html[dir=ltr] .al-end-n-9 {
   right: -9px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-10, html[dir=ltr][dir=""] .al-start-10, html[dir=ltr][dir=ltr] .al-start-10 {
+html:not([dir]) .al-start-10, html[dir=""] .al-start-10, html[dir=ltr] .al-start-10 {
   left: 10px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-10, html[dir=ltr][dir=""] .al-start-n-10, html[dir=ltr][dir=ltr] .al-start-n-10 {
+html:not([dir]) .al-start-n-10, html[dir=""] .al-start-n-10, html[dir=ltr] .al-start-n-10 {
   left: -10px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-10, html[dir=ltr][dir=""] .al-end-10, html[dir=ltr][dir=ltr] .al-end-10 {
+html:not([dir]) .al-end-10, html[dir=""] .al-end-10, html[dir=ltr] .al-end-10 {
   right: 10px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-10, html[dir=ltr][dir=""] .al-end-n-10, html[dir=ltr][dir=ltr] .al-end-n-10 {
+html:not([dir]) .al-end-n-10, html[dir=""] .al-end-n-10, html[dir=ltr] .al-end-n-10 {
   right: -10px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-12, html[dir=ltr][dir=""] .al-start-12, html[dir=ltr][dir=ltr] .al-start-12 {
+html:not([dir]) .al-start-12, html[dir=""] .al-start-12, html[dir=ltr] .al-start-12 {
   left: 12px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-12, html[dir=ltr][dir=""] .al-start-n-12, html[dir=ltr][dir=ltr] .al-start-n-12 {
+html:not([dir]) .al-start-n-12, html[dir=""] .al-start-n-12, html[dir=ltr] .al-start-n-12 {
   left: -12px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-12, html[dir=ltr][dir=""] .al-end-12, html[dir=ltr][dir=ltr] .al-end-12 {
+html:not([dir]) .al-end-12, html[dir=""] .al-end-12, html[dir=ltr] .al-end-12 {
   right: 12px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-12, html[dir=ltr][dir=""] .al-end-n-12, html[dir=ltr][dir=ltr] .al-end-n-12 {
+html:not([dir]) .al-end-n-12, html[dir=""] .al-end-n-12, html[dir=ltr] .al-end-n-12 {
   right: -12px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-14, html[dir=ltr][dir=""] .al-start-14, html[dir=ltr][dir=ltr] .al-start-14 {
+html:not([dir]) .al-start-14, html[dir=""] .al-start-14, html[dir=ltr] .al-start-14 {
   left: 14px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-14, html[dir=ltr][dir=""] .al-start-n-14, html[dir=ltr][dir=ltr] .al-start-n-14 {
+html:not([dir]) .al-start-n-14, html[dir=""] .al-start-n-14, html[dir=ltr] .al-start-n-14 {
   left: -14px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-14, html[dir=ltr][dir=""] .al-end-14, html[dir=ltr][dir=ltr] .al-end-14 {
+html:not([dir]) .al-end-14, html[dir=""] .al-end-14, html[dir=ltr] .al-end-14 {
   right: 14px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-14, html[dir=ltr][dir=""] .al-end-n-14, html[dir=ltr][dir=ltr] .al-end-n-14 {
+html:not([dir]) .al-end-n-14, html[dir=""] .al-end-n-14, html[dir=ltr] .al-end-n-14 {
   right: -14px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-15, html[dir=ltr][dir=""] .al-start-15, html[dir=ltr][dir=ltr] .al-start-15 {
+html:not([dir]) .al-start-15, html[dir=""] .al-start-15, html[dir=ltr] .al-start-15 {
   left: 15px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-15, html[dir=ltr][dir=""] .al-start-n-15, html[dir=ltr][dir=ltr] .al-start-n-15 {
+html:not([dir]) .al-start-n-15, html[dir=""] .al-start-n-15, html[dir=ltr] .al-start-n-15 {
   left: -15px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-15, html[dir=ltr][dir=""] .al-end-15, html[dir=ltr][dir=ltr] .al-end-15 {
+html:not([dir]) .al-end-15, html[dir=""] .al-end-15, html[dir=ltr] .al-end-15 {
   right: 15px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-15, html[dir=ltr][dir=""] .al-end-n-15, html[dir=ltr][dir=ltr] .al-end-n-15 {
+html:not([dir]) .al-end-n-15, html[dir=""] .al-end-n-15, html[dir=ltr] .al-end-n-15 {
   right: -15px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-16, html[dir=ltr][dir=""] .al-start-16, html[dir=ltr][dir=ltr] .al-start-16 {
+html:not([dir]) .al-start-16, html[dir=""] .al-start-16, html[dir=ltr] .al-start-16 {
   left: 16px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-16, html[dir=ltr][dir=""] .al-start-n-16, html[dir=ltr][dir=ltr] .al-start-n-16 {
+html:not([dir]) .al-start-n-16, html[dir=""] .al-start-n-16, html[dir=ltr] .al-start-n-16 {
   left: -16px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-16, html[dir=ltr][dir=""] .al-end-16, html[dir=ltr][dir=ltr] .al-end-16 {
+html:not([dir]) .al-end-16, html[dir=""] .al-end-16, html[dir=ltr] .al-end-16 {
   right: 16px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-16, html[dir=ltr][dir=""] .al-end-n-16, html[dir=ltr][dir=ltr] .al-end-n-16 {
+html:not([dir]) .al-end-n-16, html[dir=""] .al-end-n-16, html[dir=ltr] .al-end-n-16 {
   right: -16px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-20, html[dir=ltr][dir=""] .al-start-20, html[dir=ltr][dir=ltr] .al-start-20 {
+html:not([dir]) .al-start-20, html[dir=""] .al-start-20, html[dir=ltr] .al-start-20 {
   left: 20px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-20, html[dir=ltr][dir=""] .al-start-n-20, html[dir=ltr][dir=ltr] .al-start-n-20 {
+html:not([dir]) .al-start-n-20, html[dir=""] .al-start-n-20, html[dir=ltr] .al-start-n-20 {
   left: -20px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-20, html[dir=ltr][dir=""] .al-end-20, html[dir=ltr][dir=ltr] .al-end-20 {
+html:not([dir]) .al-end-20, html[dir=""] .al-end-20, html[dir=ltr] .al-end-20 {
   right: 20px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-20, html[dir=ltr][dir=""] .al-end-n-20, html[dir=ltr][dir=ltr] .al-end-n-20 {
+html:not([dir]) .al-end-n-20, html[dir=""] .al-end-n-20, html[dir=ltr] .al-end-n-20 {
   right: -20px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-24, html[dir=ltr][dir=""] .al-start-24, html[dir=ltr][dir=ltr] .al-start-24 {
+html:not([dir]) .al-start-24, html[dir=""] .al-start-24, html[dir=ltr] .al-start-24 {
   left: 24px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-24, html[dir=ltr][dir=""] .al-start-n-24, html[dir=ltr][dir=ltr] .al-start-n-24 {
+html:not([dir]) .al-start-n-24, html[dir=""] .al-start-n-24, html[dir=ltr] .al-start-n-24 {
   left: -24px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-24, html[dir=ltr][dir=""] .al-end-24, html[dir=ltr][dir=ltr] .al-end-24 {
+html:not([dir]) .al-end-24, html[dir=""] .al-end-24, html[dir=ltr] .al-end-24 {
   right: 24px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-24, html[dir=ltr][dir=""] .al-end-n-24, html[dir=ltr][dir=ltr] .al-end-n-24 {
+html:not([dir]) .al-end-n-24, html[dir=""] .al-end-n-24, html[dir=ltr] .al-end-n-24 {
   right: -24px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-32, html[dir=ltr][dir=""] .al-start-32, html[dir=ltr][dir=ltr] .al-start-32 {
+html:not([dir]) .al-start-32, html[dir=""] .al-start-32, html[dir=ltr] .al-start-32 {
   left: 32px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-32, html[dir=ltr][dir=""] .al-start-n-32, html[dir=ltr][dir=ltr] .al-start-n-32 {
+html:not([dir]) .al-start-n-32, html[dir=""] .al-start-n-32, html[dir=ltr] .al-start-n-32 {
   left: -32px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-32, html[dir=ltr][dir=""] .al-end-32, html[dir=ltr][dir=ltr] .al-end-32 {
+html:not([dir]) .al-end-32, html[dir=""] .al-end-32, html[dir=ltr] .al-end-32 {
   right: 32px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-32, html[dir=ltr][dir=""] .al-end-n-32, html[dir=ltr][dir=ltr] .al-end-n-32 {
+html:not([dir]) .al-end-n-32, html[dir=""] .al-end-n-32, html[dir=ltr] .al-end-n-32 {
   right: -32px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-48, html[dir=ltr][dir=""] .al-start-48, html[dir=ltr][dir=ltr] .al-start-48 {
+html:not([dir]) .al-start-48, html[dir=""] .al-start-48, html[dir=ltr] .al-start-48 {
   left: 48px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-48, html[dir=ltr][dir=""] .al-start-n-48, html[dir=ltr][dir=ltr] .al-start-n-48 {
+html:not([dir]) .al-start-n-48, html[dir=""] .al-start-n-48, html[dir=ltr] .al-start-n-48 {
   left: -48px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-48, html[dir=ltr][dir=""] .al-end-48, html[dir=ltr][dir=ltr] .al-end-48 {
+html:not([dir]) .al-end-48, html[dir=""] .al-end-48, html[dir=ltr] .al-end-48 {
   right: 48px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-48, html[dir=ltr][dir=""] .al-end-n-48, html[dir=ltr][dir=ltr] .al-end-n-48 {
+html:not([dir]) .al-end-n-48, html[dir=""] .al-end-n-48, html[dir=ltr] .al-end-n-48 {
   right: -48px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-64, html[dir=ltr][dir=""] .al-start-64, html[dir=ltr][dir=ltr] .al-start-64 {
+html:not([dir]) .al-start-64, html[dir=""] .al-start-64, html[dir=ltr] .al-start-64 {
   left: 64px !important;
 }
-html[dir=ltr]:not([dir]) .al-start-n-64, html[dir=ltr][dir=""] .al-start-n-64, html[dir=ltr][dir=ltr] .al-start-n-64 {
+html:not([dir]) .al-start-n-64, html[dir=""] .al-start-n-64, html[dir=ltr] .al-start-n-64 {
   left: -64px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-64, html[dir=ltr][dir=""] .al-end-64, html[dir=ltr][dir=ltr] .al-end-64 {
+html:not([dir]) .al-end-64, html[dir=""] .al-end-64, html[dir=ltr] .al-end-64 {
   right: 64px !important;
 }
-html[dir=ltr]:not([dir]) .al-end-n-64, html[dir=ltr][dir=""] .al-end-n-64, html[dir=ltr][dir=ltr] .al-end-n-64 {
+html:not([dir]) .al-end-n-64, html[dir=""] .al-end-n-64, html[dir=ltr] .al-end-n-64 {
   right: -64px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-0 {
+html[dir=rtl] .al-start-0 {
   right: 0px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-0 {
+html[dir=rtl] .al-start-n-0 {
   right: -0px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-0 {
+html[dir=rtl] .al-end-0 {
   left: 0px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-0 {
+html[dir=rtl] .al-end-n-0 {
   left: -0px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-1 {
+html[dir=rtl] .al-start-1 {
   right: 1px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-1 {
+html[dir=rtl] .al-start-n-1 {
   right: -1px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-1 {
+html[dir=rtl] .al-end-1 {
   left: 1px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-1 {
+html[dir=rtl] .al-end-n-1 {
   left: -1px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-2 {
+html[dir=rtl] .al-start-2 {
   right: 2px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-2 {
+html[dir=rtl] .al-start-n-2 {
   right: -2px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-2 {
+html[dir=rtl] .al-end-2 {
   left: 2px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-2 {
+html[dir=rtl] .al-end-n-2 {
   left: -2px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-3 {
+html[dir=rtl] .al-start-3 {
   right: 3px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-3 {
+html[dir=rtl] .al-start-n-3 {
   right: -3px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-3 {
+html[dir=rtl] .al-end-3 {
   left: 3px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-3 {
+html[dir=rtl] .al-end-n-3 {
   left: -3px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-4 {
+html[dir=rtl] .al-start-4 {
   right: 4px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-4 {
+html[dir=rtl] .al-start-n-4 {
   right: -4px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-4 {
+html[dir=rtl] .al-end-4 {
   left: 4px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-4 {
+html[dir=rtl] .al-end-n-4 {
   left: -4px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-5 {
+html[dir=rtl] .al-start-5 {
   right: 5px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-5 {
+html[dir=rtl] .al-start-n-5 {
   right: -5px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-5 {
+html[dir=rtl] .al-end-5 {
   left: 5px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-5 {
+html[dir=rtl] .al-end-n-5 {
   left: -5px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-6 {
+html[dir=rtl] .al-start-6 {
   right: 6px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-6 {
+html[dir=rtl] .al-start-n-6 {
   right: -6px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-6 {
+html[dir=rtl] .al-end-6 {
   left: 6px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-6 {
+html[dir=rtl] .al-end-n-6 {
   left: -6px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-7 {
+html[dir=rtl] .al-start-7 {
   right: 7px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-7 {
+html[dir=rtl] .al-start-n-7 {
   right: -7px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-7 {
+html[dir=rtl] .al-end-7 {
   left: 7px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-7 {
+html[dir=rtl] .al-end-n-7 {
   left: -7px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-8 {
+html[dir=rtl] .al-start-8 {
   right: 8px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-8 {
+html[dir=rtl] .al-start-n-8 {
   right: -8px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-8 {
+html[dir=rtl] .al-end-8 {
   left: 8px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-8 {
+html[dir=rtl] .al-end-n-8 {
   left: -8px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-9 {
+html[dir=rtl] .al-start-9 {
   right: 9px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-9 {
+html[dir=rtl] .al-start-n-9 {
   right: -9px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-9 {
+html[dir=rtl] .al-end-9 {
   left: 9px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-9 {
+html[dir=rtl] .al-end-n-9 {
   left: -9px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-10 {
+html[dir=rtl] .al-start-10 {
   right: 10px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-10 {
+html[dir=rtl] .al-start-n-10 {
   right: -10px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-10 {
+html[dir=rtl] .al-end-10 {
   left: 10px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-10 {
+html[dir=rtl] .al-end-n-10 {
   left: -10px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-12 {
+html[dir=rtl] .al-start-12 {
   right: 12px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-12 {
+html[dir=rtl] .al-start-n-12 {
   right: -12px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-12 {
+html[dir=rtl] .al-end-12 {
   left: 12px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-12 {
+html[dir=rtl] .al-end-n-12 {
   left: -12px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-14 {
+html[dir=rtl] .al-start-14 {
   right: 14px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-14 {
+html[dir=rtl] .al-start-n-14 {
   right: -14px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-14 {
+html[dir=rtl] .al-end-14 {
   left: 14px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-14 {
+html[dir=rtl] .al-end-n-14 {
   left: -14px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-15 {
+html[dir=rtl] .al-start-15 {
   right: 15px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-15 {
+html[dir=rtl] .al-start-n-15 {
   right: -15px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-15 {
+html[dir=rtl] .al-end-15 {
   left: 15px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-15 {
+html[dir=rtl] .al-end-n-15 {
   left: -15px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-16 {
+html[dir=rtl] .al-start-16 {
   right: 16px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-16 {
+html[dir=rtl] .al-start-n-16 {
   right: -16px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-16 {
+html[dir=rtl] .al-end-16 {
   left: 16px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-16 {
+html[dir=rtl] .al-end-n-16 {
   left: -16px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-20 {
+html[dir=rtl] .al-start-20 {
   right: 20px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-20 {
+html[dir=rtl] .al-start-n-20 {
   right: -20px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-20 {
+html[dir=rtl] .al-end-20 {
   left: 20px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-20 {
+html[dir=rtl] .al-end-n-20 {
   left: -20px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-24 {
+html[dir=rtl] .al-start-24 {
   right: 24px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-24 {
+html[dir=rtl] .al-start-n-24 {
   right: -24px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-24 {
+html[dir=rtl] .al-end-24 {
   left: 24px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-24 {
+html[dir=rtl] .al-end-n-24 {
   left: -24px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-32 {
+html[dir=rtl] .al-start-32 {
   right: 32px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-32 {
+html[dir=rtl] .al-start-n-32 {
   right: -32px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-32 {
+html[dir=rtl] .al-end-32 {
   left: 32px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-32 {
+html[dir=rtl] .al-end-n-32 {
   left: -32px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-48 {
+html[dir=rtl] .al-start-48 {
   right: 48px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-48 {
+html[dir=rtl] .al-start-n-48 {
   right: -48px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-48 {
+html[dir=rtl] .al-end-48 {
   left: 48px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-48 {
+html[dir=rtl] .al-end-n-48 {
   left: -48px !important;
   right: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-start-64 {
+html[dir=rtl] .al-start-64 {
   right: 64px !important;
 }
-html[dir=ltr][dir=rtl] .al-start-n-64 {
+html[dir=rtl] .al-start-n-64 {
   right: -64px !important;
   left: inherit !important;
 }
-html[dir=ltr][dir=rtl] .al-end-64 {
+html[dir=rtl] .al-end-64 {
   left: 64px !important;
 }
-html[dir=ltr][dir=rtl] .al-end-n-64 {
+html[dir=rtl] .al-end-n-64 {
   left: -64px !important;
   right: inherit !important;
 }
